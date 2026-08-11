@@ -34,14 +34,18 @@ API = "https://api.github.com"
 HISTORY_KEEP_DAYS = 400
 
 
-def api(path, params=None, allow_fail=False):
-    """Ein GET gegen die GitHub-API. Gibt (data, error) zurueck."""
+def api(path, params=None, allow_fail=False, accept=None, headers_out=None):
+    """Ein GET gegen die GitHub-API. Gibt (data, error) zurueck.
+
+    accept       abweichender Accept-Header, z.B. star+json fuer starred_at.
+    headers_out  optionales dict, das die Antwort-Header aufnimmt (fuer Link).
+    """
     url = API + path
     if params:
         url += "?" + "&".join(f"{k}={v}" for k, v in params.items())
 
     req = urllib.request.Request(url)
-    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("Accept", accept or "application/vnd.github+json")
     req.add_header("X-GitHub-Api-Version", "2022-11-28")
     req.add_header("User-Agent", "ha-metrics-collector")
     if TOKEN:
@@ -50,6 +54,8 @@ def api(path, params=None, allow_fail=False):
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
+                if headers_out is not None:
+                    headers_out.update(dict(resp.headers))
                 return json.loads(resp.read().decode("utf-8")), None
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")[:200]
@@ -186,37 +192,38 @@ def collect_repo(repo):
     # --- Neue Stars mit Zeitstempel ------------------------------------
     # Der star+json Accept-Header liefert starred_at.
     stars_recent = []
-    try:
-        req = urllib.request.Request(
-            f"{API}/repos/{full}/stargazers?per_page=100&page=1"
-        )
-        req.add_header("Accept", "application/vnd.github.star+json")
-        req.add_header("User-Agent", "ha-metrics-collector")
-        if TOKEN:
-            req.add_header("Authorization", f"Bearer {TOKEN}")
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            link = resp.headers.get("Link", "")
-            data = json.loads(resp.read().decode("utf-8"))
+    star_accept = "application/vnd.github.star+json"
+    headers = {}
+    data, serr = api(
+        f"/repos/{full}/stargazers",
+        {"per_page": 100, "page": 1},
+        allow_fail=True,
+        accept=star_accept,
+        headers_out=headers,
+    )
+    if serr:
+        snap["errors"].append(f"stargazers: {serr}")
+    elif isinstance(data, list):
         # Bei mehreren Seiten interessiert nur die letzte (neueste Stars)
+        link = headers.get("Link", "")
         if 'rel="last"' in link:
-            last = link.split('page=')[-1].split('>')[0].split('&')[0]
-            req2 = urllib.request.Request(
-                f"{API}/repos/{full}/stargazers?per_page=100&page={last}"
+            last = link.split("page=")[-1].split(">")[0].split("&")[0]
+            page, perr = api(
+                f"/repos/{full}/stargazers",
+                {"per_page": 100, "page": last},
+                allow_fail=True,
+                accept=star_accept,
             )
-            req2.add_header("Accept", "application/vnd.github.star+json")
-            req2.add_header("User-Agent", "ha-metrics-collector")
-            if TOKEN:
-                req2.add_header("Authorization", f"Bearer {TOKEN}")
-            with urllib.request.urlopen(req2, timeout=30) as resp2:
-                data = json.loads(resp2.read().decode("utf-8"))
+            if perr:
+                snap["errors"].append(f"stargazers Seite {last}: {perr}")
+            elif isinstance(page, list):
+                data = page
         cutoff = iso(now - timedelta(days=7))
         for s in data:
             if s.get("starred_at", "") >= cutoff:
                 stars_recent.append(
                     {"user": (s.get("user") or {}).get("login"), "at": s.get("starred_at")}
                 )
-    except Exception as e:  # noqa: BLE001
-        snap["errors"].append(f"stargazers: {type(e).__name__}")
     snap["stars_last_7d"] = sorted(stars_recent, key=lambda x: x["at"] or "", reverse=True)
 
     # --- Neue Forks ----------------------------------------------------
