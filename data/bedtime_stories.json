@@ -1,0 +1,164 @@
+{
+ "repo": "florianbaethge/bedtime_stories",
+ "current": {
+  "repo": "florianbaethge/bedtime_stories",
+  "collected_at": "2026-08-11T12:19:54Z",
+  "date": "2026-08-11",
+  "errors": [
+   "stargazers: HTTPError",
+   "traffic/views: HTTP 403 bei /repos/florianbaethge/bedtime_stories/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+   "traffic/clones: HTTP 403 bei /repos/florianbaethge/bedtime_stories/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+  ],
+  "description": "Kid-friendly bedtime story library for Home Assistant — integration + Lovelace card. HACS-compatible.",
+  "default_branch": "main",
+  "stars": 0,
+  "forks": 0,
+  "watchers": 0,
+  "pushed_at": "2026-08-05T14:11:32Z",
+  "archived": false,
+  "open_issues": [],
+  "open_prs": [],
+  "open_issues_count": 0,
+  "open_prs_count": 0,
+  "recently_closed": [
+   {
+    "number": 12,
+    "title": "chore: distribute via release zip asset (zip_release)",
+    "is_pr": true,
+    "closed_at": "2026-08-05T14:11:25Z",
+    "url": "https://github.com/florianbaethge/bedtime_stories/pull/12"
+   }
+  ],
+  "releases": [
+   {
+    "tag": "v0.3.1",
+    "name": "v0.3.1 — brand icon",
+    "published_at": "2026-08-01T20:40:04Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "bedtime_stories.zip",
+      "downloads": 0
+     }
+    ],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.3.1"
+   },
+   {
+    "tag": "v0.3.0",
+    "name": "v0.3.0 — optimized cover uploads",
+    "published_at": "2026-08-01T20:16:41Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.3.0"
+   },
+   {
+    "tag": "v0.2.0",
+    "name": "v0.2.0 — Playback controls & keep-awake",
+    "published_at": "2026-07-24T20:22:52Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.2.0"
+   },
+   {
+    "tag": "v0.1.7",
+    "name": "v0.1.7",
+    "published_at": "2026-07-16T18:42:21Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.7"
+   },
+   {
+    "tag": "v0.1.6",
+    "name": "v0.1.6",
+    "published_at": "2026-07-16T12:45:08Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.6"
+   },
+   {
+    "tag": "v0.1.5",
+    "name": "v0.1.5",
+    "published_at": "2026-07-16T11:12:46Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.5"
+   },
+   {
+    "tag": "v0.1.4",
+    "name": "v0.1.4",
+    "published_at": "2026-07-16T10:02:18Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.4"
+   },
+   {
+    "tag": "v0.1.3",
+    "name": "v0.1.3",
+    "published_at": "2026-07-16T07:46:34Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.3"
+   },
+   {
+    "tag": "v0.1.2",
+    "name": "v0.1.2",
+    "published_at": "2026-07-16T06:54:38Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.2"
+   },
+   {
+    "tag": "v0.1.1",
+    "name": "v0.1.1",
+    "published_at": "2026-07-15T10:03:35Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.1"
+   },
+   {
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "published_at": "2026-07-14T18:25:54Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.0"
+   }
+  ],
+  "downloads_total": 0,
+  "latest_release": {
+   "tag": "v0.3.1",
+   "name": "v0.3.1 — brand icon",
+   "published_at": "2026-08-01T20:40:04Z",
+   "prerelease": false,
+   "assets": [
+    {
+     "name": "bedtime_stories.zip",
+     "downloads": 0
+    }
+   ],
+   "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.3.1"
+  },
+  "stars_last_7d": [],
+  "forks_last_7d": [],
+  "views_14d": null,
+  "clones_14d": null,
+  "referrers": [],
+  "top_paths": []
+ },
+ "history": [
+  {
+   "date": "2026-08-11",
+   "collected_at": "2026-08-11T12:19:54Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": null,
+   "views_14d_unique": null,
+   "clones_14d": null,
+   "latest_release": "v0.3.1"
+  }
+ ]
+}

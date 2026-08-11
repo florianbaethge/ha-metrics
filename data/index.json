@@ -1,0 +1,111 @@
+{
+ "generated_at": "2026-08-11T12:18:51Z",
+ "owner": "florianbaethge",
+ "repos": [
+  {
+   "repo": "florianbaethge/simple_irrigation",
+   "name": "simple_irrigation",
+   "stars": 7,
+   "forks": 4,
+   "watchers": 0,
+   "open_issues_count": 3,
+   "open_prs_count": 0,
+   "downloads_total": 49,
+   "views_14d": null,
+   "clones_14d": null,
+   "latest_release": "v1.2.0",
+   "delta_vs_prev_day": {
+    "stars": null,
+    "forks": null,
+    "downloads_total": null,
+    "open_issues_count": null,
+    "open_prs_count": null
+   },
+   "prev_date": null,
+   "errors": [
+    "stargazers: HTTPError",
+    "traffic/views: HTTP 403 bei /repos/florianbaethge/simple_irrigation/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+    "traffic/clones: HTTP 403 bei /repos/florianbaethge/simple_irrigation/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+   ]
+  },
+  {
+   "repo": "florianbaethge/bedtime_stories",
+   "name": "bedtime_stories",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": null,
+   "clones_14d": null,
+   "latest_release": "v0.3.1",
+   "delta_vs_prev_day": {
+    "stars": null,
+    "forks": null,
+    "downloads_total": null,
+    "open_issues_count": null,
+    "open_prs_count": null
+   },
+   "prev_date": null,
+   "errors": [
+    "stargazers: HTTPError",
+    "traffic/views: HTTP 403 bei /repos/florianbaethge/bedtime_stories/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+    "traffic/clones: HTTP 403 bei /repos/florianbaethge/bedtime_stories/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+   ]
+  },
+  {
+   "repo": "florianbaethge/advanced_cover",
+   "name": "advanced_cover",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 2,
+   "views_14d": null,
+   "clones_14d": null,
+   "latest_release": "v0.6.2",
+   "delta_vs_prev_day": {
+    "stars": null,
+    "forks": null,
+    "downloads_total": null,
+    "open_issues_count": null,
+    "open_prs_count": null
+   },
+   "prev_date": null,
+   "errors": [
+    "stargazers: HTTPError",
+    "traffic/views: HTTP 403 bei /repos/florianbaethge/advanced_cover/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+    "traffic/clones: HTTP 403 bei /repos/florianbaethge/advanced_cover/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+   ]
+  },
+  {
+   "repo": "florianbaethge/deluxe_room_card",
+   "name": "deluxe_room_card",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": null,
+   "clones_14d": null,
+   "latest_release": "v0.2.0",
+   "delta_vs_prev_day": {
+    "stars": null,
+    "forks": null,
+    "downloads_total": null,
+    "open_issues_count": null,
+    "open_prs_count": null
+   },
+   "prev_date": null,
+   "errors": [
+    "stargazers: HTTPError",
+    "traffic/views: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+    "traffic/clones: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+   ]
+  }
+ ],
+ "token_present": true
+}

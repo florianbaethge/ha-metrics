@@ -1,0 +1,226 @@
+{
+ "repo": "florianbaethge/advanced_cover",
+ "current": {
+  "repo": "florianbaethge/advanced_cover",
+  "collected_at": "2026-08-11T12:20:57Z",
+  "date": "2026-08-11",
+  "errors": [
+   "stargazers: HTTPError",
+   "traffic/views: HTTP 403 bei /repos/florianbaethge/advanced_cover/traffic/views: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-page-views\",\"status\":\"403\"}",
+   "traffic/clones: HTTP 403 bei /repos/florianbaethge/advanced_cover/traffic/clones: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/metrics/traffic#get-repository-clones\",\"status\":\"403\"}"
+  ],
+  "description": "Rule-based, scenario-driven cover automation for Home Assistant with a sidebar panel. HACS-compatible.",
+  "default_branch": "main",
+  "stars": 0,
+  "forks": 0,
+  "watchers": 0,
+  "pushed_at": "2026-08-10T20:00:44Z",
+  "archived": false,
+  "open_issues": [],
+  "open_prs": [],
+  "open_issues_count": 0,
+  "open_prs_count": 0,
+  "recently_closed": [
+   {
+    "number": 15,
+    "title": "fix: let clamped covers finish closing within the re-arm window",
+    "is_pr": true,
+    "closed_at": "2026-08-10T20:00:30Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/15"
+   },
+   {
+    "number": 14,
+    "title": "fix: evaluate scenario cover conditions per cover in the panel (v0.6.2)",
+    "is_pr": true,
+    "closed_at": "2026-08-09T09:25:53Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/14"
+   },
+   {
+    "number": 13,
+    "title": "fix: safety override option to close fully despite an open window (v0.6.1)",
+    "is_pr": true,
+    "closed_at": "2026-08-05T18:44:19Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/13"
+   },
+   {
+    "number": 12,
+    "title": "chore: distribute via release zip asset (zip_release)",
+    "is_pr": true,
+    "closed_at": "2026-08-05T14:12:43Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/12"
+   },
+   {
+    "number": 11,
+    "title": "v0.6.0 — sun-position triggers, restart persistence, safety-rule overrides",
+    "is_pr": true,
+    "closed_at": "2026-08-04T21:07:34Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/11"
+   }
+  ],
+  "releases": [
+   {
+    "tag": "v0.6.2",
+    "name": "v0.6.2",
+    "published_at": "2026-08-09T09:26:35Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 1
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.2"
+   },
+   {
+    "tag": "v0.6.1",
+    "name": "v0.6.1",
+    "published_at": "2026-08-05T18:44:58Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 1
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.1"
+   },
+   {
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "published_at": "2026-08-04T21:07:58Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 0
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.0"
+   },
+   {
+    "tag": "v0.5.4",
+    "name": "v0.5.4",
+    "published_at": "2026-08-03T19:20:34Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.5.4"
+   },
+   {
+    "tag": "v0.5.3",
+    "name": "v0.5.3 — brand icon",
+    "published_at": "2026-08-01T21:18:29Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.5.3"
+   },
+   {
+    "tag": "v0.5.2",
+    "name": "v0.5.2",
+    "published_at": "2026-08-01T20:23:11Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.5.2"
+   },
+   {
+    "tag": "v0.5.1",
+    "name": "v0.5.1",
+    "published_at": "2026-08-01T19:53:06Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.5.1"
+   },
+   {
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "published_at": "2026-08-01T19:36:47Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.5.0"
+   },
+   {
+    "tag": "v0.4.2",
+    "name": "v0.4.2",
+    "published_at": "2026-07-31T19:57:38Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.4.2"
+   },
+   {
+    "tag": "v0.4.1",
+    "name": "v0.4.1",
+    "published_at": "2026-07-31T19:05:56Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.4.1"
+   },
+   {
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "published_at": "2026-07-26T09:26:22Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.4.0"
+   },
+   {
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "published_at": "2026-07-25T22:00:58Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.3.0"
+   },
+   {
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "published_at": "2026-07-25T20:35:10Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.2.0"
+   },
+   {
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "published_at": "2026-07-14T18:25:55Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.1.0"
+   }
+  ],
+  "downloads_total": 2,
+  "latest_release": {
+   "tag": "v0.6.2",
+   "name": "v0.6.2",
+   "published_at": "2026-08-09T09:26:35Z",
+   "prerelease": false,
+   "assets": [
+    {
+     "name": "advanced_cover.zip",
+     "downloads": 1
+    }
+   ],
+   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.2"
+  },
+  "stars_last_7d": [],
+  "forks_last_7d": [],
+  "views_14d": null,
+  "clones_14d": null,
+  "referrers": [],
+  "top_paths": []
+ },
+ "history": [
+  {
+   "date": "2026-08-11",
+   "collected_at": "2026-08-11T12:20:57Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 2,
+   "views_14d": null,
+   "views_14d_unique": null,
+   "clones_14d": null,
+   "latest_release": "v0.6.2"
+  }
+ ]
+}
