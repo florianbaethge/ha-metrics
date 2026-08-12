@@ -2,10 +2,10 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-11T12:28:55Z",
-  "date": "2026-08-11",
+  "collected_at": "2026-08-12T06:41:52Z",
+  "date": "2026-08-12",
   "errors": [
-   "stargazers: HTTPError"
+   "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
   "description": "Rule-based, scenario-driven cover automation for Home Assistant with a sidebar panel. HACS-compatible.",
   "default_branch": "main",
@@ -46,13 +46,6 @@
     "is_pr": true,
     "closed_at": "2026-08-05T14:12:43Z",
     "url": "https://github.com/florianbaethge/advanced_cover/pull/12"
-   },
-   {
-    "number": 11,
-    "title": "v0.6.0 — sun-position triggers, restart persistence, safety-rule overrides",
-    "is_pr": true,
-    "closed_at": "2026-08-04T21:07:34Z",
-    "url": "https://github.com/florianbaethge/advanced_cover/pull/11"
    }
   ],
   "releases": [
@@ -200,14 +193,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 23,
-  "views_14d_unique": 7,
+  "views_14d": 24,
+  "views_14d_unique": 8,
   "views_daily": [
-   {
-    "timestamp": "2026-07-28T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-07-29T00:00:00Z",
     "count": 0,
@@ -272,16 +260,16 @@
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 11,
     "uniques": 4
+   },
+   {
+    "timestamp": "2026-08-11T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "clones_14d": 190,
   "clones_14d_unique": 59,
   "clones_daily": [
-   {
-    "timestamp": "2026-07-28T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-07-29T00:00:00Z",
     "count": 2,
@@ -346,21 +334,26 @@
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 15,
     "uniques": 6
+   },
+   {
+    "timestamp": "2026-08-11T00:00:00Z",
+    "count": 2,
+    "uniques": 2
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 19,
-    "uniques": 6
+    "count": 20,
+    "uniques": 7
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/advanced_cover",
     "title": "Overview",
-    "count": 19,
-    "uniques": 7
+    "count": 20,
+    "uniques": 8
    },
    {
     "path": "/florianbaethge/advanced_cover/actions/runs/30950622898",
@@ -400,6 +393,20 @@
    "downloads_total": 2,
    "views_14d": 23,
    "views_14d_unique": 7,
+   "clones_14d": 190,
+   "latest_release": "v0.6.2"
+  },
+  {
+   "date": "2026-08-12",
+   "collected_at": "2026-08-12T06:41:52Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 2,
+   "views_14d": 24,
+   "views_14d_unique": 8,
    "clones_14d": 190,
    "latest_release": "v0.6.2"
   }
