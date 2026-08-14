@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-13T06:44:11Z",
-  "date": "2026-08-13",
+  "collected_at": "2026-08-14T06:41:54Z",
+  "date": "2026-08-14",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -12,25 +12,41 @@
   "stars": 0,
   "forks": 1,
   "watchers": 0,
-  "pushed_at": "2026-08-13T06:43:51Z",
+  "pushed_at": "2026-08-13T11:16:12Z",
   "archived": false,
   "open_issues": [],
-  "open_prs": [
+  "open_prs": [],
+  "open_issues_count": 0,
+  "open_prs_count": 0,
+  "recently_closed": [
+   {
+    "number": 21,
+    "title": "chore: bump version to 0.7.1",
+    "is_pr": true,
+    "closed_at": "2026-08-13T11:14:52Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/21"
+   },
+   {
+    "number": 20,
+    "title": "Dutch translation, translation consistency tests, native area picker",
+    "is_pr": true,
+    "closed_at": "2026-08-13T11:12:42Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/20"
+   },
    {
     "number": 17,
     "title": "Improve entity selectors and added Dutch translations",
-    "user": "bvgeleuken",
-    "created_at": "2026-08-12T14:13:33Z",
-    "updated_at": "2026-08-12T14:13:34Z",
-    "comments": 0,
-    "labels": [],
-    "url": "https://github.com/florianbaethge/advanced_cover/pull/17",
-    "draft": false
-   }
-  ],
-  "open_issues_count": 0,
-  "open_prs_count": 1,
-  "recently_closed": [
+    "is_pr": true,
+    "closed_at": "2026-08-13T11:07:17Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/17"
+   },
+   {
+    "number": 19,
+    "title": "Capture the log card in the screenshot script",
+    "is_pr": true,
+    "closed_at": "2026-08-13T06:54:23Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/19"
+   },
    {
     "number": 18,
     "title": "Native Home Assistant entity pickers in the panel — v0.7.0",
@@ -62,6 +78,32 @@
   ],
   "releases": [
    {
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "published_at": "2026-08-13T11:16:03Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 1
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.1"
+   },
+   {
+    "tag": "v0.7.0",
+    "name": "v0.7.0",
+    "published_at": "2026-08-13T06:55:13Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 1
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.0"
+   },
+   {
     "tag": "v0.6.4",
     "name": "v0.6.4",
     "published_at": "2026-08-12T08:44:01Z",
@@ -73,6 +115,19 @@
      }
     ],
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.4"
+   },
+   {
+    "tag": "v0.6.3",
+    "name": "v0.6.3",
+    "published_at": "2026-08-10T20:01:00Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 0
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.3"
    },
    {
     "tag": "v0.6.2",
@@ -202,11 +257,11 @@
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 3,
+  "downloads_total": 5,
   "latest_release": {
-   "tag": "v0.6.4",
-   "name": "v0.6.4",
-   "published_at": "2026-08-12T08:44:01Z",
+   "tag": "v0.7.1",
+   "name": "v0.7.1",
+   "published_at": "2026-08-13T11:16:03Z",
    "prerelease": false,
    "assets": [
     {
@@ -214,7 +269,7 @@
      "downloads": 1
     }
    ],
-   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.6.4"
+   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.1"
   },
   "stars_last_7d": [],
   "forks_last_7d": [
@@ -224,14 +279,9 @@
     "url": "https://github.com/bvgeleuken/advanced_cover"
    }
   ],
-  "views_14d": 31,
+  "views_14d": 54,
   "views_14d_unique": 8,
   "views_daily": [
-   {
-    "timestamp": "2026-07-30T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-07-31T00:00:00Z",
     "count": 1,
@@ -296,16 +346,16 @@
     "timestamp": "2026-08-12T00:00:00Z",
     "count": 7,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-13T00:00:00Z",
+    "count": 24,
+    "uniques": 3
    }
   ],
-  "clones_14d": 207,
-  "clones_14d_unique": 63,
+  "clones_14d": 254,
+  "clones_14d_unique": 75,
   "clones_daily": [
-   {
-    "timestamp": "2026-07-30T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-07-31T00:00:00Z",
     "count": 34,
@@ -370,21 +420,44 @@
     "timestamp": "2026-08-12T00:00:00Z",
     "count": 19,
     "uniques": 8
+   },
+   {
+    "timestamp": "2026-08-13T00:00:00Z",
+    "count": 48,
+    "uniques": 15
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 24,
-    "uniques": 7
+    "count": 45,
+    "uniques": 8
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/advanced_cover",
     "title": "Overview",
-    "count": 23,
+    "count": 28,
     "uniques": 8
+   },
+   {
+    "path": "/florianbaethge/advanced_cover/pulls",
+    "title": "/pulls",
+    "count": 9,
+    "uniques": 3
+   },
+   {
+    "path": "/florianbaethge/advanced_cover/pull/17",
+    "title": "/pull/17",
+    "count": 4,
+    "uniques": 2
+   },
+   {
+    "path": "/florianbaethge/advanced_cover/issues",
+    "title": "/issues",
+    "count": 3,
+    "uniques": 2
    },
    {
     "path": "/florianbaethge/advanced_cover/actions/runs/30950622898",
@@ -405,14 +478,8 @@
     "uniques": 1
    },
    {
-    "path": "/florianbaethge/advanced_cover/issues",
-    "title": "/issues",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/pull/17",
-    "title": "/pull/17",
+    "path": "/florianbaethge/advanced_cover/pull/17/changes",
+    "title": "/pull/17/changes",
     "count": 1,
     "uniques": 1
    },
@@ -423,14 +490,8 @@
     "uniques": 1
    },
    {
-    "path": "/florianbaethge/advanced_cover/pulls",
-    "title": "/pulls",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/releases",
-    "title": "/releases",
+    "path": "/florianbaethge/advanced_cover/pull/18",
+    "title": "/pull/18",
     "count": 1,
     "uniques": 1
    }
@@ -478,6 +539,20 @@
    "views_14d_unique": 8,
    "clones_14d": 207,
    "latest_release": "v0.6.4"
+  },
+  {
+   "date": "2026-08-14",
+   "collected_at": "2026-08-14T06:41:54Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 5,
+   "views_14d": 54,
+   "views_14d_unique": 8,
+   "clones_14d": 254,
+   "latest_release": "v0.7.1"
   }
  ]
 }

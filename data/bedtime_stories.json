@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-08-13T06:43:53Z",
-  "date": "2026-08-13",
+  "collected_at": "2026-08-14T06:41:37Z",
+  "date": "2026-08-14",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -332,6 +332,20 @@
   {
    "date": "2026-08-13",
    "collected_at": "2026-08-13T06:43:53Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 8,
+   "views_14d_unique": 4,
+   "clones_14d": 102,
+   "latest_release": "v0.3.1"
+  },
+  {
+   "date": "2026-08-14",
+   "collected_at": "2026-08-14T06:41:37Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,

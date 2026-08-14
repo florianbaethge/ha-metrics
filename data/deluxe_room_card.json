@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-13T06:44:29Z",
-  "date": "2026-08-13",
+  "collected_at": "2026-08-14T06:42:11Z",
+  "date": "2026-08-14",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -56,14 +56,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 6,
+  "views_14d": 8,
   "views_14d_unique": 1,
   "views_daily": [
-   {
-    "timestamp": "2026-07-30T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-07-31T00:00:00Z",
     "count": 0,
@@ -128,16 +123,16 @@
     "timestamp": "2026-08-12T00:00:00Z",
     "count": 2,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-13T00:00:00Z",
+    "count": 2,
+    "uniques": 1
    }
   ],
-  "clones_14d": 39,
-  "clones_14d_unique": 19,
+  "clones_14d": 40,
+  "clones_14d_unique": 20,
   "clones_daily": [
-   {
-    "timestamp": "2026-07-30T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-07-31T00:00:00Z",
     "count": 1,
@@ -202,6 +197,11 @@
     "timestamp": "2026-08-12T00:00:00Z",
     "count": 3,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-13T00:00:00Z",
+    "count": 2,
+    "uniques": 2
    }
   ],
   "referrers": [
@@ -215,7 +215,13 @@
    {
     "path": "/florianbaethge/deluxe_room_card",
     "title": "Overview",
-    "count": 6,
+    "count": 7,
+    "uniques": 1
+   },
+   {
+    "path": "/florianbaethge/deluxe_room_card/pulls",
+    "title": "/pulls",
+    "count": 1,
     "uniques": 1
    }
   ]
@@ -261,6 +267,20 @@
    "views_14d": 6,
    "views_14d_unique": 1,
    "clones_14d": 39,
+   "latest_release": "v0.2.0"
+  },
+  {
+   "date": "2026-08-14",
+   "collected_at": "2026-08-14T06:42:11Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 8,
+   "views_14d_unique": 1,
+   "clones_14d": 40,
    "latest_release": "v0.2.0"
   }
  ]
