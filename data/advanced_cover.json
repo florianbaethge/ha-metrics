@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-15T05:39:16Z",
-  "date": "2026-08-15",
+  "collected_at": "2026-08-16T05:42:10Z",
+  "date": "2026-08-16",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -85,7 +85,7 @@
     "assets": [
      {
       "name": "advanced_cover.zip",
-      "downloads": 1
+      "downloads": 2
      }
     ],
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.1"
@@ -257,7 +257,7 @@
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 5,
+  "downloads_total": 6,
   "latest_release": {
    "tag": "v0.7.1",
    "name": "v0.7.1",
@@ -266,7 +266,7 @@
    "assets": [
     {
      "name": "advanced_cover.zip",
-     "downloads": 1
+     "downloads": 2
     }
    ],
    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.1"
@@ -279,19 +279,9 @@
     "url": "https://github.com/bvgeleuken/advanced_cover"
    }
   ],
-  "views_14d": 54,
-  "views_14d_unique": 8,
+  "views_14d": 50,
+  "views_14d_unique": 10,
   "views_daily": [
-   {
-    "timestamp": "2026-07-31T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "timestamp": "2026-08-01T00:00:00Z",
-    "count": 5,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-08-02T00:00:00Z",
     "count": 0,
@@ -351,21 +341,21 @@
     "timestamp": "2026-08-13T00:00:00Z",
     "count": 24,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-14T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-15T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
-  "clones_14d": 254,
-  "clones_14d_unique": 75,
+  "clones_14d": 170,
+  "clones_14d_unique": 53,
   "clones_daily": [
-   {
-    "timestamp": "2026-07-31T00:00:00Z",
-    "count": 34,
-    "uniques": 14
-   },
-   {
-    "timestamp": "2026-08-01T00:00:00Z",
-    "count": 53,
-    "uniques": 15
-   },
    {
     "timestamp": "2026-08-02T00:00:00Z",
     "count": 3,
@@ -425,21 +415,31 @@
     "timestamp": "2026-08-13T00:00:00Z",
     "count": 48,
     "uniques": 15
+   },
+   {
+    "timestamp": "2026-08-14T00:00:00Z",
+    "count": 2,
+    "uniques": 2
+   },
+   {
+    "timestamp": "2026-08-15T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 45,
-    "uniques": 8
+    "count": 41,
+    "uniques": 10
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/advanced_cover",
     "title": "Overview",
-    "count": 28,
-    "uniques": 8
+    "count": 24,
+    "uniques": 10
    },
    {
     "path": "/florianbaethge/advanced_cover/pulls",
@@ -566,6 +566,20 @@
    "views_14d": 54,
    "views_14d_unique": 8,
    "clones_14d": 254,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-16",
+   "collected_at": "2026-08-16T05:42:10Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 50,
+   "views_14d_unique": 10,
+   "clones_14d": 170,
    "latest_release": "v0.7.1"
   }
  ]
