@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-16T05:42:10Z",
-  "date": "2026-08-16",
+  "collected_at": "2026-08-17T05:49:12Z",
+  "date": "2026-08-17",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -67,13 +67,6 @@
     "is_pr": true,
     "closed_at": "2026-08-10T20:00:30Z",
     "url": "https://github.com/florianbaethge/advanced_cover/pull/15"
-   },
-   {
-    "number": 14,
-    "title": "fix: evaluate scenario cover conditions per cover in the panel (v0.6.2)",
-    "is_pr": true,
-    "closed_at": "2026-08-09T09:25:53Z",
-    "url": "https://github.com/florianbaethge/advanced_cover/pull/14"
    }
   ],
   "releases": [
@@ -571,6 +564,20 @@
   {
    "date": "2026-08-16",
    "collected_at": "2026-08-16T05:42:10Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 50,
+   "views_14d_unique": 10,
+   "clones_14d": 170,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-17",
+   "collected_at": "2026-08-17T05:49:12Z",
    "stars": 0,
    "forks": 1,
    "watchers": 0,

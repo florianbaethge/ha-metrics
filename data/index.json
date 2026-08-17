@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-08-16T05:41:36Z",
+ "generated_at": "2026-08-17T05:48:33Z",
  "owner": "florianbaethge",
  "repos": [
   {
    "repo": "florianbaethge/simple_irrigation",
    "name": "simple_irrigation",
-   "stars": 8,
+   "stars": 9,
    "forks": 4,
    "watchers": 0,
-   "open_issues_count": 0,
-   "open_prs_count": 1,
-   "downloads_total": 528,
+   "open_issues_count": 1,
+   "open_prs_count": 0,
+   "downloads_total": 624,
    "views_14d": 663,
    "clones_14d": 247,
    "latest_release": "v1.7.0",
    "delta_vs_prev_day": {
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
-    "downloads_total": 38,
-    "open_issues_count": -1,
-    "open_prs_count": 1
+    "downloads_total": 96,
+    "open_issues_count": 1,
+    "open_prs_count": -1
    },
-   "prev_date": "2026-08-15",
+   "prev_date": "2026-08-16",
    "errors": [
     "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
@@ -35,8 +35,8 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 0,
-   "views_14d": 9,
-   "clones_14d": 101,
+   "views_14d": 8,
+   "clones_14d": 37,
    "latest_release": "v0.3.1",
    "delta_vs_prev_day": {
     "stars": 0,
@@ -45,7 +45,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-15",
+   "prev_date": "2026-08-16",
    "errors": [
     "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
@@ -65,11 +65,11 @@
    "delta_vs_prev_day": {
     "stars": 0,
     "forks": 0,
-    "downloads_total": 1,
+    "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-15",
+   "prev_date": "2026-08-16",
    "errors": [
     "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
@@ -84,7 +84,7 @@
    "open_prs_count": 0,
    "downloads_total": 0,
    "views_14d": 8,
-   "clones_14d": 40,
+   "clones_14d": 41,
    "latest_release": "v0.2.0",
    "delta_vs_prev_day": {
     "stars": 0,
@@ -93,7 +93,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-15",
+   "prev_date": "2026-08-16",
    "errors": [
     "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]

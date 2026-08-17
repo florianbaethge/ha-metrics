@@ -2,35 +2,41 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-16T05:41:36Z",
-  "date": "2026-08-16",
+  "collected_at": "2026-08-17T05:48:33Z",
+  "date": "2026-08-17",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
-  "stars": 8,
+  "stars": 9,
   "forks": 4,
   "watchers": 0,
   "pushed_at": "2026-08-15T20:09:39Z",
   "archived": false,
-  "open_issues": [],
-  "open_prs": [
+  "open_issues": [
+   {
+    "number": 46,
+    "title": "[Open For Discussion] FR: Add Lovelace Dashboard Card",
+    "user": "florianbaethge",
+    "created_at": "2026-08-16T11:26:59Z",
+    "updated_at": "2026-08-16T19:17:51Z",
+    "comments": 1,
+    "labels": [],
+    "url": "https://github.com/florianbaethge/simple_irrigation/issues/46"
+   }
+  ],
+  "open_prs": [],
+  "open_issues_count": 1,
+  "open_prs_count": 0,
+  "recently_closed": [
    {
     "number": 44,
     "title": "Add irrigation calendar entity and schedule-focused Lovelace card",
-    "user": "bvgeleuken",
-    "created_at": "2026-08-15T18:06:17Z",
-    "updated_at": "2026-08-15T21:06:36Z",
-    "comments": 2,
-    "labels": [],
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/44",
-    "draft": false
-   }
-  ],
-  "open_issues_count": 0,
-  "open_prs_count": 1,
-  "recently_closed": [
+    "is_pr": true,
+    "closed_at": "2026-08-16T10:51:55Z",
+    "url": "https://github.com/florianbaethge/simple_irrigation/pull/44"
+   },
    {
     "number": 43,
     "title": "Feature Reqest: Extension of the remaining term",
@@ -202,7 +208,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 20
+      "downloads": 115
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.7.0"
@@ -215,7 +221,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 128
+      "downloads": 129
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.6.0"
@@ -395,7 +401,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 528,
+  "downloads_total": 624,
   "latest_release": {
    "tag": "v1.7.0",
    "name": "v1.7.0",
@@ -404,7 +410,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 20
+     "downloads": 115
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.7.0"
@@ -730,6 +736,20 @@
    "open_issues_count": 0,
    "open_prs_count": 1,
    "downloads_total": 528,
+   "views_14d": 663,
+   "views_14d_unique": 71,
+   "clones_14d": 247,
+   "latest_release": "v1.7.0"
+  },
+  {
+   "date": "2026-08-17",
+   "collected_at": "2026-08-17T05:48:33Z",
+   "stars": 9,
+   "forks": 4,
+   "watchers": 0,
+   "open_issues_count": 1,
+   "open_prs_count": 0,
+   "downloads_total": 624,
    "views_14d": 663,
    "views_14d_unique": 71,
    "clones_14d": 247,
