@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-17T05:49:12Z",
-  "date": "2026-08-17",
+  "collected_at": "2026-08-18T05:44:05Z",
+  "date": "2026-08-18",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -60,13 +60,6 @@
     "is_pr": true,
     "closed_at": "2026-08-12T08:42:59Z",
     "url": "https://github.com/florianbaethge/advanced_cover/pull/16"
-   },
-   {
-    "number": 15,
-    "title": "fix: let clamped covers finish closing within the re-arm window",
-    "is_pr": true,
-    "closed_at": "2026-08-10T20:00:30Z",
-    "url": "https://github.com/florianbaethge/advanced_cover/pull/15"
    }
   ],
   "releases": [
@@ -578,6 +571,20 @@
   {
    "date": "2026-08-17",
    "collected_at": "2026-08-17T05:49:12Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 50,
+   "views_14d_unique": 10,
+   "clones_14d": 170,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-18",
+   "collected_at": "2026-08-18T05:44:05Z",
    "stars": 0,
    "forks": 1,
    "watchers": 0,

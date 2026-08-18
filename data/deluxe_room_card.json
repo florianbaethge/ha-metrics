@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-17T05:49:31Z",
-  "date": "2026-08-17",
+  "collected_at": "2026-08-18T05:44:24Z",
+  "date": "2026-08-18",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -18,15 +18,7 @@
   "open_prs": [],
   "open_issues_count": 0,
   "open_prs_count": 0,
-  "recently_closed": [
-   {
-    "number": 1,
-    "title": "feat(alerts): flag entities that dropped out entirely (v0.2.0)",
-    "is_pr": true,
-    "closed_at": "2026-08-10T13:14:35Z",
-    "url": "https://github.com/florianbaethge/deluxe_room_card/pull/1"
-   }
-  ],
+  "recently_closed": [],
   "releases": [
    {
     "tag": "v0.2.0",
@@ -314,6 +306,20 @@
   {
    "date": "2026-08-17",
    "collected_at": "2026-08-17T05:49:31Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 8,
+   "views_14d_unique": 2,
+   "clones_14d": 41,
+   "latest_release": "v0.2.0"
+  },
+  {
+   "date": "2026-08-18",
+   "collected_at": "2026-08-18T05:44:24Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,

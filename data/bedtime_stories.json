@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-08-17T05:48:53Z",
-  "date": "2026-08-17",
+  "collected_at": "2026-08-18T05:43:46Z",
+  "date": "2026-08-18",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -12,14 +12,35 @@
   "stars": 0,
   "forks": 0,
   "watchers": 0,
-  "pushed_at": "2026-08-05T14:11:32Z",
+  "pushed_at": "2026-08-17T19:30:53Z",
   "archived": false,
   "open_issues": [],
   "open_prs": [],
   "open_issues_count": 0,
   "open_prs_count": 0,
-  "recently_closed": [],
+  "recently_closed": [
+   {
+    "number": 13,
+    "title": "feat: random story button (v0.4.0)",
+    "is_pr": true,
+    "closed_at": "2026-08-17T19:30:34Z",
+    "url": "https://github.com/florianbaethge/bedtime_stories/pull/13"
+   }
+  ],
   "releases": [
+   {
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "published_at": "2026-08-17T19:31:06Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "bedtime_stories.zip",
+      "downloads": 0
+     }
+    ],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.4.0"
+   },
    {
     "tag": "v0.3.1",
     "name": "v0.3.1 — brand icon",
@@ -116,9 +137,9 @@
   ],
   "downloads_total": 0,
   "latest_release": {
-   "tag": "v0.3.1",
-   "name": "v0.3.1 — brand icon",
-   "published_at": "2026-08-01T20:40:04Z",
+   "tag": "v0.4.0",
+   "name": "v0.4.0",
+   "published_at": "2026-08-17T19:31:06Z",
    "prerelease": false,
    "assets": [
     {
@@ -126,7 +147,7 @@
      "downloads": 0
     }
    ],
-   "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.3.1"
+   "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.4.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
@@ -398,6 +419,20 @@
    "views_14d_unique": 5,
    "clones_14d": 37,
    "latest_release": "v0.3.1"
+  },
+  {
+   "date": "2026-08-18",
+   "collected_at": "2026-08-18T05:43:46Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 8,
+   "views_14d_unique": 5,
+   "clones_14d": 37,
+   "latest_release": "v0.4.0"
   }
  ]
 }
