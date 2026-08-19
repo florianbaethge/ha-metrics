@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-18T05:44:05Z",
-  "date": "2026-08-18",
+  "collected_at": "2026-08-19T05:45:48Z",
+  "date": "2026-08-19",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -269,16 +269,6 @@
   "views_14d_unique": 10,
   "views_daily": [
    {
-    "timestamp": "2026-08-02T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "timestamp": "2026-08-03T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-08-04T00:00:00Z",
     "count": 1,
     "uniques": 1
@@ -337,21 +327,21 @@
     "timestamp": "2026-08-15T00:00:00Z",
     "count": 1,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-16T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-17T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 170,
-  "clones_14d_unique": 53,
+  "clones_14d": 156,
+  "clones_14d_unique": 49,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-02T00:00:00Z",
-    "count": 3,
-    "uniques": 3
-   },
-   {
-    "timestamp": "2026-08-03T00:00:00Z",
-    "count": 13,
-    "uniques": 4
-   },
    {
     "timestamp": "2026-08-04T00:00:00Z",
     "count": 22,
@@ -409,6 +399,16 @@
    },
    {
     "timestamp": "2026-08-15T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-16T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-17T00:00:00Z",
     "count": 1,
     "uniques": 1
    }
@@ -594,6 +594,20 @@
    "views_14d": 50,
    "views_14d_unique": 10,
    "clones_14d": 170,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-19",
+   "collected_at": "2026-08-19T05:45:48Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 50,
+   "views_14d_unique": 10,
+   "clones_14d": 156,
    "latest_release": "v0.7.1"
   }
  ]
