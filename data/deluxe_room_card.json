@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-19T05:46:06Z",
-  "date": "2026-08-19",
+  "collected_at": "2026-08-20T05:46:07Z",
+  "date": "2026-08-20",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -12,14 +12,30 @@
   "stars": 0,
   "forks": 0,
   "watchers": 0,
-  "pushed_at": "2026-08-10T13:15:57Z",
+  "pushed_at": "2026-08-19T15:12:56Z",
   "archived": false,
   "open_issues": [],
   "open_prs": [],
   "open_issues_count": 0,
   "open_prs_count": 0,
-  "recently_closed": [],
+  "recently_closed": [
+   {
+    "number": 2,
+    "title": "Absolute humidity thresholds (v0.3.0)",
+    "is_pr": true,
+    "closed_at": "2026-08-19T15:12:31Z",
+    "url": "https://github.com/florianbaethge/deluxe_room_card/pull/2"
+   }
+  ],
   "releases": [
+   {
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "published_at": "2026-08-19T15:12:58Z",
+    "prerelease": false,
+    "assets": [],
+    "url": "https://github.com/florianbaethge/deluxe_room_card/releases/tag/v0.3.0"
+   },
    {
     "tag": "v0.2.0",
     "name": "v0.2.0",
@@ -39,12 +55,12 @@
   ],
   "downloads_total": 0,
   "latest_release": {
-   "tag": "v0.2.0",
-   "name": "v0.2.0",
-   "published_at": "2026-08-10T13:16:11Z",
+   "tag": "v0.3.0",
+   "name": "v0.3.0",
+   "published_at": "2026-08-19T15:12:58Z",
    "prerelease": false,
    "assets": [],
-   "url": "https://github.com/florianbaethge/deluxe_room_card/releases/tag/v0.2.0"
+   "url": "https://github.com/florianbaethge/deluxe_room_card/releases/tag/v0.3.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
@@ -350,6 +366,20 @@
    "views_14d_unique": 4,
    "clones_14d": 41,
    "latest_release": "v0.2.0"
+  },
+  {
+   "date": "2026-08-20",
+   "collected_at": "2026-08-20T05:46:07Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 10,
+   "views_14d_unique": 4,
+   "clones_14d": 41,
+   "latest_release": "v0.3.0"
   }
  ]
 }

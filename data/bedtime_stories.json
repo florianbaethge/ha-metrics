@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-08-19T05:45:29Z",
-  "date": "2026-08-19",
+  "collected_at": "2026-08-20T05:45:31Z",
+  "date": "2026-08-20",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -171,19 +171,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 8,
-  "views_14d_unique": 6,
+  "views_14d": 5,
+  "views_14d_unique": 5,
   "views_daily": [
-   {
-    "timestamp": "2026-08-04T00:00:00Z",
-    "count": 3,
-    "uniques": 2
-   },
-   {
-    "timestamp": "2026-08-05T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-08-06T00:00:00Z",
     "count": 0,
@@ -243,21 +233,21 @@
     "timestamp": "2026-08-17T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-18T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-19T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 47,
-  "clones_14d_unique": 17,
+  "clones_14d": 44,
+  "clones_14d_unique": 15,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-04T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "timestamp": "2026-08-05T00:00:00Z",
-    "count": 15,
-    "uniques": 6
-   },
    {
     "timestamp": "2026-08-06T00:00:00Z",
     "count": 2,
@@ -317,27 +307,31 @@
     "timestamp": "2026-08-17T00:00:00Z",
     "count": 14,
     "uniques": 6
+   },
+   {
+    "timestamp": "2026-08-18T00:00:00Z",
+    "count": 12,
+    "uniques": 4
+   },
+   {
+    "timestamp": "2026-08-19T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 8,
-    "uniques": 6
+    "count": 5,
+    "uniques": 5
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/bedtime_stories",
     "title": "Overview",
-    "count": 7,
-    "uniques": 6
-   },
-   {
-    "path": "/florianbaethge/bedtime_stories/releases/tag/v0.3.1",
-    "title": "/releases/tag/v0.3.1",
-    "count": 1,
-    "uniques": 1
+    "count": 5,
+    "uniques": 5
    }
   ]
  },
@@ -466,6 +460,20 @@
    "views_14d": 8,
    "views_14d_unique": 6,
    "clones_14d": 47,
+   "latest_release": "v0.5.0"
+  },
+  {
+   "date": "2026-08-20",
+   "collected_at": "2026-08-20T05:45:31Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1,
+   "views_14d": 5,
+   "views_14d_unique": 5,
+   "clones_14d": 44,
    "latest_release": "v0.5.0"
   }
  ]
