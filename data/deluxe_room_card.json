@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-20T05:46:07Z",
-  "date": "2026-08-20",
+  "collected_at": "2026-08-21T05:47:40Z",
+  "date": "2026-08-21",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -68,21 +68,6 @@
   "views_14d_unique": 4,
   "views_daily": [
    {
-    "timestamp": "2026-08-04T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "timestamp": "2026-08-05T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "timestamp": "2026-08-06T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-08-07T00:00:00Z",
     "count": 0,
     "uniques": 0
@@ -136,26 +121,26 @@
     "timestamp": "2026-08-17T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-18T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-19T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-20T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 41,
-  "clones_14d_unique": 21,
+  "clones_14d": 51,
+  "clones_14d_unique": 26,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-04T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "timestamp": "2026-08-05T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "timestamp": "2026-08-06T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-08-07T00:00:00Z",
     "count": 2,
@@ -208,6 +193,21 @@
    },
    {
     "timestamp": "2026-08-17T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-18T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-19T00:00:00Z",
+    "count": 11,
+    "uniques": 7
+   },
+   {
+    "timestamp": "2026-08-20T00:00:00Z",
     "count": 1,
     "uniques": 1
    }
@@ -379,6 +379,20 @@
    "views_14d": 10,
    "views_14d_unique": 4,
    "clones_14d": 41,
+   "latest_release": "v0.3.0"
+  },
+  {
+   "date": "2026-08-21",
+   "collected_at": "2026-08-21T05:47:40Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 10,
+   "views_14d_unique": 4,
+   "clones_14d": 51,
    "latest_release": "v0.3.0"
   }
  ]
