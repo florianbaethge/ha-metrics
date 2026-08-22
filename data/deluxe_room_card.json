@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-21T05:47:40Z",
-  "date": "2026-08-21",
+  "collected_at": "2026-08-22T05:41:33Z",
+  "date": "2026-08-22",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -384,6 +384,20 @@
   {
    "date": "2026-08-21",
    "collected_at": "2026-08-21T05:47:40Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 10,
+   "views_14d_unique": 4,
+   "clones_14d": 51,
+   "latest_release": "v0.3.0"
+  },
+  {
+   "date": "2026-08-22",
+   "collected_at": "2026-08-22T05:41:33Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
