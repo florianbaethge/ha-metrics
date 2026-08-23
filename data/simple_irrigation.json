@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-22T05:40:40Z",
-  "date": "2026-08-22",
+  "collected_at": "2026-08-23T05:43:22Z",
+  "date": "2026-08-23",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -62,25 +62,11 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/pull/47"
    },
    {
-    "number": 43,
-    "title": "Feature Reqest: Extension of the remaining term",
-    "is_pr": false,
-    "closed_at": "2026-08-15T20:09:25Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/issues/43"
-   },
-   {
     "number": 44,
     "title": "Add irrigation calendar entity and schedule-focused Lovelace card",
     "is_pr": true,
     "closed_at": "2026-08-16T10:51:55Z",
     "url": "https://github.com/florianbaethge/simple_irrigation/pull/44"
-   },
-   {
-    "number": 45,
-    "title": "Release v1.7.0: remaining run time of the watering zone",
-    "is_pr": true,
-    "closed_at": "2026-08-15T20:09:24Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/45"
    }
   ],
   "releases": [
@@ -92,7 +78,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 113
+      "downloads": 143
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -131,7 +117,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 160
+      "downloads": 161
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.7.0"
@@ -324,7 +310,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 961,
+  "downloads_total": 992,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -333,7 +319,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 113
+     "downloads": 143
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -743,6 +729,20 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 961,
+   "views_14d": 745,
+   "views_14d_unique": 73,
+   "clones_14d": 290,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-23",
+   "collected_at": "2026-08-23T05:43:22Z",
+   "stars": 10,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 992,
    "views_14d": 745,
    "views_14d_unique": 73,
    "clones_14d": 290,
