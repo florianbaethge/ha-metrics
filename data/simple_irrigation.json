@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-23T05:43:22Z",
-  "date": "2026-08-23",
+  "collected_at": "2026-08-24T05:51:53Z",
+  "date": "2026-08-24",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -60,13 +60,6 @@
     "is_pr": true,
     "closed_at": "2026-08-19T08:33:22Z",
     "url": "https://github.com/florianbaethge/simple_irrigation/pull/47"
-   },
-   {
-    "number": 44,
-    "title": "Add irrigation calendar entity and schedule-focused Lovelace card",
-    "is_pr": true,
-    "closed_at": "2026-08-16T10:51:55Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/44"
    }
   ],
   "releases": [
@@ -78,7 +71,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 143
+      "downloads": 174
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -310,7 +303,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 992,
+  "downloads_total": 1023,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -319,7 +312,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 143
+     "downloads": 174
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -337,14 +330,9 @@
     "url": "https://github.com/macapus/simple_irrigation"
    }
   ],
-  "views_14d": 745,
-  "views_14d_unique": 73,
+  "views_14d": 756,
+  "views_14d_unique": 74,
   "views_daily": [
-   {
-    "timestamp": "2026-08-08T00:00:00Z",
-    "count": 10,
-    "uniques": 6
-   },
    {
     "timestamp": "2026-08-09T00:00:00Z",
     "count": 38,
@@ -409,16 +397,16 @@
     "timestamp": "2026-08-21T00:00:00Z",
     "count": 12,
     "uniques": 7
+   },
+   {
+    "timestamp": "2026-08-22T00:00:00Z",
+    "count": 21,
+    "uniques": 10
    }
   ],
-  "clones_14d": 290,
-  "clones_14d_unique": 98,
+  "clones_14d": 292,
+  "clones_14d_unique": 100,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-08T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-08-09T00:00:00Z",
     "count": 1,
@@ -483,12 +471,17 @@
     "timestamp": "2026-08-21T00:00:00Z",
     "count": 8,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-22T00:00:00Z",
+    "count": 3,
+    "uniques": 3
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 280,
+    "count": 279,
     "uniques": 13
    },
    {
@@ -500,31 +493,36 @@
     "referrer": "DuckDuckGo",
     "count": 2,
     "uniques": 2
+   },
+   {
+    "referrer": "hacs-repositories.web.app",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/simple_irrigation",
     "title": "Overview",
-    "count": 183,
+    "count": 185,
     "uniques": 49
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues",
     "title": "/issues",
-    "count": 111,
+    "count": 113,
     "uniques": 20
    },
    {
     "path": "/florianbaethge/simple_irrigation/pulls",
     "title": "/pulls",
-    "count": 98,
-    "uniques": 13
+    "count": 99,
+    "uniques": 14
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues/43",
     "title": "/issues/43",
-    "count": 22,
+    "count": 23,
     "uniques": 6
    },
    {
@@ -554,8 +552,8 @@
    {
     "path": "/florianbaethge/simple_irrigation/actions",
     "title": "/actions",
-    "count": 12,
-    "uniques": 4
+    "count": 13,
+    "uniques": 5
    },
    {
     "path": "/florianbaethge/simple_irrigation/pull/35",
@@ -746,6 +744,20 @@
    "views_14d": 745,
    "views_14d_unique": 73,
    "clones_14d": 290,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-24",
+   "collected_at": "2026-08-24T05:51:53Z",
+   "stars": 10,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1023,
+   "views_14d": 756,
+   "views_14d_unique": 74,
+   "clones_14d": 292,
    "latest_release": "v1.9.1"
   }
  ]

@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-23T05:43:57Z",
-  "date": "2026-08-23",
+  "collected_at": "2026-08-24T05:52:31Z",
+  "date": "2026-08-24",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -220,11 +220,6 @@
   "views_14d_unique": 9,
   "views_daily": [
    {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 11,
     "uniques": 4
@@ -288,16 +283,16 @@
     "timestamp": "2026-08-22T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 111,
-  "clones_14d_unique": 34,
+  "clones_14d": 97,
+  "clones_14d_unique": 31,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 15,
-    "uniques": 6
-   },
    {
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 15,
@@ -360,6 +355,11 @@
    },
    {
     "timestamp": "2026-08-22T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
     "count": 1,
     "uniques": 1
    }
@@ -615,6 +615,20 @@
    "views_14d": 46,
    "views_14d_unique": 9,
    "clones_14d": 111,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-24",
+   "collected_at": "2026-08-24T05:52:31Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 46,
+   "views_14d_unique": 9,
+   "clones_14d": 97,
    "latest_release": "v0.7.1"
   }
  ]
