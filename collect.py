@@ -64,6 +64,10 @@ def api(path, params=None, allow_fail=False, accept=None, headers_out=None):
                 time.sleep(5 * (attempt + 1))
                 continue
             msg = f"HTTP {e.code} bei {path}: {body}"
+            # GitHub nennt bei 403 selbst, welche Berechtigung gereicht haette.
+            accepted = (e.headers or {}).get("X-Accepted-GitHub-Permissions")
+            if accepted:
+                msg += f" [noetig: {accepted}]"
             if allow_fail:
                 return None, msg
             print(f"  ! {msg}", file=sys.stderr)
