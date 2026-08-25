@@ -2,10 +2,10 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-25T05:46:28Z",
+  "collected_at": "2026-08-25T06:54:24Z",
   "date": "2026-08-25",
   "errors": [
-   "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+   "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
@@ -767,7 +767,7 @@
   },
   {
    "date": "2026-08-25",
-   "collected_at": "2026-08-25T05:46:28Z",
+   "collected_at": "2026-08-25T06:54:24Z",
    "stars": 11,
    "forks": 6,
    "watchers": 0,

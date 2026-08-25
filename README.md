@@ -19,8 +19,10 @@ Personal access tokens → **Fine-grained tokens** → Generate new token.
 - *Repository access*: Only select repositories → die vier Extension-Repos **und** `ha-metrics`
 - *Permissions* → Repository permissions:
   - **Administration: Read-only** ← das ist der Schlüssel für Views/Clones
-  - **Contents: Read and write** (damit die Action nach `data/` committen darf)
   - **Metadata: Read-only** (wird automatisch mitgesetzt)
+  - **Contents: Read and write** — nur nötig, wenn du die *Namen* der
+    Stargazer willst, siehe unten. Für den Commit nach `data/` braucht es das
+    nicht, das erledigt der eingebaute `GITHUB_TOKEN` der Action.
 - Laufzeit: so lang wie du magst. Bei Ablauf hört der Traffic-Teil auf, der Rest läuft weiter.
 
 **3. Token hinterlegen.** In `ha-metrics` → Settings → Secrets and variables →
@@ -39,6 +41,24 @@ Workflow gar nicht anfordern. Deshalb das separate Fine-grained-Token.
 Ohne Token läuft `collect.py` trotzdem durch: Sterne, Forks, Issues, PRs,
 Releases und Downloads werden gesammelt, nur die Traffic-Felder bleiben `null`
 und landen als Hinweis in `errors`.
+
+## Warum die Namen der Stargazer fehlen können
+
+`/repos/…/stargazers` ist der einzige Weg an *wer* wann gesternt hat, und
+GitHub verlangt dafür laut eigenem `X-Accepted-GitHub-Permissions`-Header
+`metadata=read; contents=write`. Die Schreibberechtigung ist GitHubs Art zu
+prüfen, ob man Collaborator ist — Lesezugriff allein genügt nicht, auch nicht
+über GraphQL (`repository.stargazers` gibt denselben 403).
+
+Hat `METRICS_TOKEN` also kein **Contents: Read and write**, bleibt
+`stars_last_7d` leer und in `errors` steht eine entsprechende Notiz. Die
+**Sternzahl selbst ist nicht betroffen** — die kommt aus `/repos/…` und damit
+auch das Tages-Delta im Report.
+
+Das ist eine bewusste Abwägung: ein Token mit Schreibrecht auf vier öffentliche
+Repos, das als Actions-Secret liegt, gegen den Namen des Stargazers. Wer die
+Namen will, setzt in den Token-Permissions *Contents* auf **Read and write**;
+wer das nicht will, lässt es — der Report bleibt ansonsten vollständig.
 
 ## Was rauskommt
 

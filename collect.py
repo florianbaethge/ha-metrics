@@ -63,6 +63,10 @@ def api(path, params=None, allow_fail=False, accept=None, headers_out=None):
                 time.sleep(5 * (attempt + 1))
                 continue
             msg = f"HTTP {e.code} bei {path}: {body}"
+            # GitHub nennt bei 403 selbst, welche Berechtigung gereicht haette.
+            accepted = (e.headers or {}).get("X-Accepted-GitHub-Permissions")
+            if accepted:
+                msg += f" [noetig: {accepted}]"
             if allow_fail:
                 return None, msg
             print(f"  ! {msg}", file=sys.stderr)
@@ -93,6 +97,56 @@ def api_all(path, params=None, max_pages=5):
         if len(data) < 100:
             break
     return out
+
+
+# Laut GitHub verlangt dieser Endpunkt "metadata=read; contents=write" -- die
+# Schreibrechte sind GitHubs Art zu pruefen, ob man Collaborator ist. Ein reines
+# Lesetoken bekommt hier 403, auch ueber GraphQL.
+STARGAZER_PERM_HINT = (
+    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer "
+    "'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und "
+    "stimmt weiterhin."
+)
+
+
+def recent_stars(full, cutoff):
+    """Sterne seit cutoff als [{user, at}] plus Fehlerliste.
+
+    Fehlt dem Token die Berechtigung, bleibt die Liste leer und es gibt genau
+    eine erklaerende Notiz statt einer rohen 403-Meldung pro Repo.
+    """
+    star_accept = "application/vnd.github.star+json"
+    headers = {}
+    data, err = api(
+        f"/repos/{full}/stargazers",
+        {"per_page": 100, "page": 1},
+        allow_fail=True,
+        accept=star_accept,
+        headers_out=headers,
+    )
+    if err:
+        return [], [STARGAZER_PERM_HINT if "HTTP 403" in err else f"stargazers: {err}"]
+    if not isinstance(data, list):
+        return [], [f"stargazers: unerwartete Antwort {type(data).__name__}"]
+
+    # Bei mehreren Seiten interessiert nur die letzte (neueste Stars)
+    link = headers.get("Link", "")
+    if 'rel="last"' in link:
+        last = link.split("page=")[-1].split(">")[0].split("&")[0]
+        page, perr = api(
+            f"/repos/{full}/stargazers",
+            {"per_page": 100, "page": last},
+            allow_fail=True,
+            accept=star_accept,
+        )
+        if isinstance(page, list) and not perr:
+            data = page
+
+    return [
+        {"user": (s.get("user") or {}).get("login"), "at": s.get("starred_at")}
+        for s in data
+        if (s.get("starred_at") or "") >= cutoff
+    ], []
 
 
 def iso(dt):
@@ -190,40 +244,9 @@ def collect_repo(repo):
     snap["latest_release"] = rel_out[0] if rel_out else None
 
     # --- Neue Stars mit Zeitstempel ------------------------------------
-    # Der star+json Accept-Header liefert starred_at.
-    stars_recent = []
-    star_accept = "application/vnd.github.star+json"
-    headers = {}
-    data, serr = api(
-        f"/repos/{full}/stargazers",
-        {"per_page": 100, "page": 1},
-        allow_fail=True,
-        accept=star_accept,
-        headers_out=headers,
-    )
-    if serr:
-        snap["errors"].append(f"stargazers: {serr}")
-    elif isinstance(data, list):
-        # Bei mehreren Seiten interessiert nur die letzte (neueste Stars)
-        link = headers.get("Link", "")
-        if 'rel="last"' in link:
-            last = link.split("page=")[-1].split(">")[0].split("&")[0]
-            page, perr = api(
-                f"/repos/{full}/stargazers",
-                {"per_page": 100, "page": last},
-                allow_fail=True,
-                accept=star_accept,
-            )
-            if perr:
-                snap["errors"].append(f"stargazers Seite {last}: {perr}")
-            elif isinstance(page, list):
-                data = page
-        cutoff = iso(now - timedelta(days=7))
-        for s in data:
-            if s.get("starred_at", "") >= cutoff:
-                stars_recent.append(
-                    {"user": (s.get("user") or {}).get("login"), "at": s.get("starred_at")}
-                )
+    cutoff = iso(now - timedelta(days=7))
+    stars_recent, star_errors = recent_stars(full, cutoff)
+    snap["errors"].extend(star_errors)
     snap["stars_last_7d"] = sorted(stars_recent, key=lambda x: x["at"] or "", reverse=True)
 
     # --- Neue Forks ----------------------------------------------------

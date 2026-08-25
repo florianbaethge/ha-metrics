@@ -1,5 +1,6 @@
-"""Trockenlauf: prueft History-Aufbau und Delta-Berechnung ueber zwei Tage."""
-import io, json, os, shutil, sys, urllib.request
+"""Trockenlauf: History-Aufbau, Delta-Berechnung und Stargazer-Degradierung."""
+import io, json, os, shutil, sys, time, urllib.error, urllib.request
+from datetime import datetime, timedelta, timezone
 from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -11,6 +12,11 @@ os.makedirs(TMP)
 STARS = {"d1": 7, "d2": 9}
 DL = {"d1": 18, "d2": 25}
 DAY = {"v": "d1"}
+
+# Innerhalb des 7-Tage-Fensters, damit der Stern auch wirklich gezaehlt wird.
+STAR_AT = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+# Simuliert ein Token ohne contents=write, also den 403 auf /stargazers.
+STARGAZERS_OK = {"v": True}
 
 
 class FakeResp(io.BytesIO):
@@ -29,7 +35,13 @@ def fake_urlopen(req, timeout=None):
     elif "/traffic/popular" in url:
         body = []
     elif "/stargazers" in url:
-        body = [{"starred_at": "2026-08-11T09:00:00Z", "user": {"login": "someone"}}]
+        if not STARGAZERS_OK["v"]:
+            raise urllib.error.HTTPError(
+                url, 403, "Forbidden",
+                {"X-Accepted-GitHub-Permissions": "metadata=read; contents=write"},
+                io.BytesIO(b'{"message":"Resource not accessible by personal access token"}'),
+            )
+        body = [{"starred_at": STAR_AT, "user": {"login": "someone"}}]
     elif "/forks" in url:
         body = []
     elif "/releases" in url:
@@ -56,8 +68,10 @@ def fake_urlopen(req, timeout=None):
 import collect
 collect.DATA_DIR = TMP
 collect.REPOS = ["simple_irrigation"]
+collect.TOKEN = "test-token"  # sonst ueberspringt graphql() den Aufruf
 
-with mock.patch.object(urllib.request, "urlopen", fake_urlopen):
+with mock.patch.object(urllib.request, "urlopen", fake_urlopen), \
+        mock.patch.object(time, "sleep", lambda *_: None):
     DAY["v"] = "d1"
     collect.main()
     # Tag 2 simulieren: History-Datum des ersten Laufs zurueckdatieren
@@ -83,4 +97,23 @@ assert r["delta_vs_prev_day"]["stars"] == 2, "Star-Delta falsch"
 assert r["delta_vs_prev_day"]["downloads_total"] == 7, "Download-Delta falsch"
 assert r["open_issues_count"] == 1 and r["open_prs_count"] == 1, "Issue/PR-Trennung falsch"
 assert len(doc["history"]) == 2, "History haette 2 Eintraege haben muessen"
+
+stars = doc["current"]["stars_last_7d"]
+assert [s["user"] for s in stars] == ["someone"], f"Stargazer fehlen: {stars}"
+assert not doc["current"]["errors"], f"unerwartete Fehler: {doc['current']['errors']}"
+
+# --- Token ohne contents=write: Zahlen bleiben, Namen fallen weg -------
+STARGAZERS_OK["v"] = False
+with mock.patch.object(urllib.request, "urlopen", fake_urlopen), \
+        mock.patch.object(time, "sleep", lambda *_: None):
+    collect.main()
+
+doc = json.load(open(os.path.join(TMP, "simple_irrigation.json")))
+cur = doc["current"]
+print("ohne Berechtigung -> stars:", cur["stars"], "| stars_last_7d:", cur["stars_last_7d"])
+print("errors:", cur["errors"])
+assert cur["stars"] == 9, "Sternzahl darf vom 403 nicht betroffen sein"
+assert cur["stars_last_7d"] == [], "ohne Berechtigung darf es keine Namen geben"
+assert cur["errors"] == [collect.STARGAZER_PERM_HINT], f"Notiz falsch: {cur['errors']}"
+
 print("\nAlle Pruefungen bestanden.")
