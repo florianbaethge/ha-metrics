@@ -29,7 +29,6 @@ REPOS = [
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TOKEN = os.environ.get("METRICS_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 API = "https://api.github.com"
-GRAPHQL = API + "/graphql"
 
 # Wie viele Tagesschnappschuesse behalten wir pro Repo
 HISTORY_KEEP_DAYS = 400
@@ -100,93 +99,35 @@ def api_all(path, params=None, max_pages=5):
     return out
 
 
-def graphql(query, variables=None):
-    """Ein POST gegen die GraphQL-API. Gibt (data, error) zurueck."""
-    if not TOKEN:
-        return None, "kein Token"
-
-    payload = json.dumps({"query": query, "variables": variables or {}}).encode("utf-8")
-    req = urllib.request.Request(GRAPHQL, data=payload, method="POST")
-    req.add_header("Content-Type", "application/json")
-    req.add_header("User-Agent", "ha-metrics-collector")
-    req.add_header("Authorization", f"Bearer {TOKEN}")
-
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                doc = json.loads(resp.read().decode("utf-8"))
-            errs = doc.get("errors")
-            if errs:
-                return None, "GraphQL: " + "; ".join(e.get("message", "?") for e in errs)[:200]
-            return doc.get("data"), None
-        except urllib.error.HTTPError as e:
-            body = e.read().decode("utf-8", "replace")[:200]
-            if e.code in (403, 429, 502) and attempt < 2:
-                time.sleep(5 * (attempt + 1))
-                continue
-            return None, f"HTTP {e.code} bei GraphQL: {body}"
-        except Exception as e:  # noqa: BLE001
-            if attempt < 2:
-                time.sleep(3)
-                continue
-            return None, f"{type(e).__name__} bei GraphQL: {e}"
-    return None, "unbekannt"
-
-
-# Ein Aufruf statt REST-Pagination: last+ASC liefert direkt die neuesten Sterne.
-STARGAZERS_QUERY = """
-query($owner: String!, $name: String!) {
-  repository(owner: $owner, name: $name) {
-    stargazers(last: 100, orderBy: {field: STARRED_AT, direction: ASC}) {
-      edges { starredAt node { login } }
-    }
-  }
-}
-"""
+# Laut GitHub verlangt dieser Endpunkt "metadata=read; contents=write" -- die
+# Schreibrechte sind GitHubs Art zu pruefen, ob man Collaborator ist. Ein reines
+# Lesetoken bekommt hier 403, auch ueber GraphQL.
+STARGAZER_PERM_HINT = (
+    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer "
+    "'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und "
+    "stimmt weiterhin."
+)
 
 
 def recent_stars(full, cutoff):
     """Sterne seit cutoff als [{user, at}] plus Fehlerliste.
 
-    Die Fehlerliste bleibt leer, sobald einer der beiden Wege Daten geliefert
-    hat -- ein Fehlversuch, den der andere Weg auffaengt, gehoert nicht in den
-    Report.
-
-    GraphQL zuerst: der REST-Endpunkt /stargazers verlangt fuer Fine-grained
-    Token 'Contents' und antwortet sonst mit 403, GraphQL kommt mit dem
-    Lesezugriff aus, den das Token ohnehin hat. REST bleibt als Rueckfall.
+    Fehlt dem Token die Berechtigung, bleibt die Liste leer und es gibt genau
+    eine erklaerende Notiz statt einer rohen 403-Meldung pro Repo.
     """
-    owner, name = full.split("/", 1)
-    errors = []
-
-    data, gerr = graphql(STARGAZERS_QUERY, {"owner": owner, "name": name})
-    if gerr:
-        errors.append(f"stargazers GraphQL: {gerr}")
-    else:
-        repo = (data or {}).get("repository") or {}
-        edges = (repo.get("stargazers") or {}).get("edges") or []
-        return [
-            {"user": (e.get("node") or {}).get("login"), "at": e.get("starredAt")}
-            for e in edges
-            if (e.get("starredAt") or "") >= cutoff
-        ], errors
-
-    # --- Rueckfall: REST -------------------------------------------------
     star_accept = "application/vnd.github.star+json"
     headers = {}
-    data, serr = api(
+    data, err = api(
         f"/repos/{full}/stargazers",
         {"per_page": 100, "page": 1},
         allow_fail=True,
         accept=star_accept,
         headers_out=headers,
     )
-    if serr:
-        errors.append(f"stargazers REST: {serr}")
-        return [], errors
+    if err:
+        return [], [STARGAZER_PERM_HINT if "HTTP 403" in err else f"stargazers: {err}"]
     if not isinstance(data, list):
-        errors.append(f"stargazers REST: unerwartete Antwort {type(data).__name__}")
-        return [], errors
+        return [], [f"stargazers: unerwartete Antwort {type(data).__name__}"]
 
     # Bei mehreren Seiten interessiert nur die letzte (neueste Stars)
     link = headers.get("Link", "")
