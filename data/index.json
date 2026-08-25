@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T05:46:28Z",
+ "generated_at": "2026-08-25T06:48:02Z",
  "owner": "florianbaethge",
  "repos": [
   {
@@ -23,7 +23,8 @@
    },
    "prev_date": "2026-08-24",
    "errors": [
-    "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
+    "stargazers REST: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
   },
   {
@@ -47,7 +48,8 @@
    },
    "prev_date": "2026-08-24",
    "errors": [
-    "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
+    "stargazers REST: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
   },
   {
@@ -71,7 +73,8 @@
    },
    "prev_date": "2026-08-24",
    "errors": [
-    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
+    "stargazers REST: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
   },
   {
@@ -95,7 +98,8 @@
    },
    "prev_date": "2026-08-24",
    "errors": [
-    "stargazers: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
+    "stargazers REST: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
    ]
   }
  ],

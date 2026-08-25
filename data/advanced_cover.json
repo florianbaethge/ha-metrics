@@ -2,10 +2,11 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-25T05:47:05Z",
+  "collected_at": "2026-08-25T06:48:37Z",
   "date": "2026-08-25",
   "errors": [
-   "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+   "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
+   "stargazers REST: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
   "description": "Rule-based, scenario-driven cover automation for Home Assistant with a sidebar panel. HACS-compatible.",
   "default_branch": "main",
@@ -633,7 +634,7 @@
   },
   {
    "date": "2026-08-25",
-   "collected_at": "2026-08-25T05:47:05Z",
+   "collected_at": "2026-08-25T06:48:37Z",
    "stars": 0,
    "forks": 1,
    "watchers": 0,
