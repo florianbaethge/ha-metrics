@@ -2,14 +2,14 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-24T05:51:53Z",
-  "date": "2026-08-24",
+  "collected_at": "2026-08-25T05:46:28Z",
+  "date": "2026-08-25",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
-  "stars": 10,
+  "stars": 11,
   "forks": 6,
   "watchers": 0,
   "pushed_at": "2026-08-20T19:59:11Z",
@@ -71,7 +71,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 174
+      "downloads": 203
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -303,7 +303,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 1023,
+  "downloads_total": 1052,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -312,7 +312,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 174
+     "downloads": 203
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -330,19 +330,9 @@
     "url": "https://github.com/macapus/simple_irrigation"
    }
   ],
-  "views_14d": 756,
-  "views_14d_unique": 74,
+  "views_14d": 649,
+  "views_14d_unique": 77,
   "views_daily": [
-   {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 38,
-    "uniques": 7
-   },
-   {
-    "timestamp": "2026-08-10T00:00:00Z",
-    "count": 95,
-    "uniques": 8
-   },
    {
     "timestamp": "2026-08-11T00:00:00Z",
     "count": 156,
@@ -402,21 +392,21 @@
     "timestamp": "2026-08-22T00:00:00Z",
     "count": 21,
     "uniques": 10
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
+    "count": 17,
+    "uniques": 7
+   },
+   {
+    "timestamp": "2026-08-24T00:00:00Z",
+    "count": 9,
+    "uniques": 6
    }
   ],
-  "clones_14d": 292,
-  "clones_14d_unique": 100,
+  "clones_14d": 273,
+  "clones_14d_unique": 97,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "timestamp": "2026-08-10T00:00:00Z",
-    "count": 20,
-    "uniques": 8
-   },
    {
     "timestamp": "2026-08-11T00:00:00Z",
     "count": 68,
@@ -476,23 +466,38 @@
     "timestamp": "2026-08-22T00:00:00Z",
     "count": 3,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-24T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 279,
-    "uniques": 13
+    "count": 208,
+    "uniques": 15
    },
    {
     "referrer": "Google",
-    "count": 104,
+    "count": 94,
     "uniques": 13
    },
    {
+    "referrer": "Bing",
+    "count": 1,
+    "uniques": 1
+   },
+   {
     "referrer": "DuckDuckGo",
-    "count": 2,
-    "uniques": 2
+    "count": 1,
+    "uniques": 1
    },
    {
     "referrer": "hacs-repositories.web.app",
@@ -504,20 +509,20 @@
    {
     "path": "/florianbaethge/simple_irrigation",
     "title": "Overview",
-    "count": 185,
+    "count": 164,
     "uniques": 49
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues",
     "title": "/issues",
-    "count": 113,
-    "uniques": 20
+    "count": 99,
+    "uniques": 19
    },
    {
     "path": "/florianbaethge/simple_irrigation/pulls",
     "title": "/pulls",
-    "count": 99,
-    "uniques": 14
+    "count": 86,
+    "uniques": 13
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues/43",
@@ -526,21 +531,15 @@
     "uniques": 6
    },
    {
-    "path": "/florianbaethge/simple_irrigation/issues/26",
-    "title": "/issues/26",
-    "count": 20,
-    "uniques": 4
-   },
-   {
     "path": "/florianbaethge/simple_irrigation/issues/46",
     "title": "/issues/46",
     "count": 19,
     "uniques": 7
    },
    {
-    "path": "/florianbaethge/simple_irrigation/pull/24",
-    "title": "/pull/24",
-    "count": 19,
+    "path": "/florianbaethge/simple_irrigation/issues/26",
+    "title": "/issues/26",
+    "count": 17,
     "uniques": 4
    },
    {
@@ -552,14 +551,20 @@
    {
     "path": "/florianbaethge/simple_irrigation/actions",
     "title": "/actions",
-    "count": 13,
-    "uniques": 5
+    "count": 11,
+    "uniques": 4
    },
    {
     "path": "/florianbaethge/simple_irrigation/pull/35",
     "title": "/pull/35",
     "count": 11,
     "uniques": 2
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/issues/30",
+    "title": "/issues/30",
+    "count": 10,
+    "uniques": 3
    }
   ]
  },
@@ -758,6 +763,20 @@
    "views_14d": 756,
    "views_14d_unique": 74,
    "clones_14d": 292,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-25",
+   "collected_at": "2026-08-25T05:46:28Z",
+   "stars": 11,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1052,
+   "views_14d": 649,
+   "views_14d_unique": 77,
+   "clones_14d": 273,
    "latest_release": "v1.9.1"
   }
  ]

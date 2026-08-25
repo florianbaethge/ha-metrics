@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-08-24T05:52:12Z",
-  "date": "2026-08-24",
+  "collected_at": "2026-08-25T05:46:47Z",
+  "date": "2026-08-25",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -25,13 +25,6 @@
     "is_pr": true,
     "closed_at": "2026-08-18T18:21:10Z",
     "url": "https://github.com/florianbaethge/bedtime_stories/pull/14"
-   },
-   {
-    "number": 13,
-    "title": "feat: random story button (v0.4.0)",
-    "is_pr": true,
-    "closed_at": "2026-08-17T19:30:34Z",
-    "url": "https://github.com/florianbaethge/bedtime_stories/pull/13"
    }
   ],
   "releases": [
@@ -175,11 +168,6 @@
   "views_14d_unique": 6,
   "views_daily": [
    {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 0,
     "uniques": 0
@@ -243,16 +231,16 @@
     "timestamp": "2026-08-22T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
   "clones_14d": 43,
   "clones_14d_unique": 14,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-09T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-08-10T00:00:00Z",
     "count": 1,
@@ -315,6 +303,11 @@
    },
    {
     "timestamp": "2026-08-22T00:00:00Z",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "timestamp": "2026-08-23T00:00:00Z",
     "count": 1,
     "uniques": 1
    }
@@ -521,6 +514,20 @@
   {
    "date": "2026-08-24",
    "collected_at": "2026-08-24T05:52:12Z",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 3,
+   "views_14d": 6,
+   "views_14d_unique": 6,
+   "clones_14d": 43,
+   "latest_release": "v0.5.0"
+  },
+  {
+   "date": "2026-08-25",
+   "collected_at": "2026-08-25T05:46:47Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,

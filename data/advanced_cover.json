@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-24T05:52:31Z",
-  "date": "2026-08-24",
+  "collected_at": "2026-08-25T05:47:05Z",
+  "date": "2026-08-25",
   "errors": [
    "stargazers: HTTP 403 bei /repos/florianbaethge/advanced_cover/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
   ],
@@ -620,6 +620,20 @@
   {
    "date": "2026-08-24",
    "collected_at": "2026-08-24T05:52:31Z",
+   "stars": 0,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 46,
+   "views_14d_unique": 9,
+   "clones_14d": 97,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-25",
+   "collected_at": "2026-08-25T05:47:05Z",
    "stars": 0,
    "forks": 1,
    "watchers": 0,
