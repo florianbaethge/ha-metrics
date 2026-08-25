@@ -2,11 +2,11 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-25T06:48:02Z",
+  "collected_at": "2026-08-25T06:50:46Z",
   "date": "2026-08-25",
   "errors": [
    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
-   "stargazers REST: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+   "stargazers REST: HTTP 403 bei /repos/florianbaethge/simple_irrigation/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"} [noetig: metadata=read; contents=write]"
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
@@ -768,7 +768,7 @@
   },
   {
    "date": "2026-08-25",
-   "collected_at": "2026-08-25T06:48:02Z",
+   "collected_at": "2026-08-25T06:50:46Z",
    "stars": 11,
    "forks": 6,
    "watchers": 0,

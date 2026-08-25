@@ -2,11 +2,11 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-08-25T06:48:20Z",
+  "collected_at": "2026-08-25T06:51:03Z",
   "date": "2026-08-25",
   "errors": [
    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
-   "stargazers REST: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+   "stargazers REST: HTTP 403 bei /repos/florianbaethge/bedtime_stories/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"} [noetig: metadata=read; contents=write]"
   ],
   "description": "Kid-friendly bedtime story library for Home Assistant — integration + Lovelace card. HACS-compatible.",
   "default_branch": "main",
@@ -528,7 +528,7 @@
   },
   {
    "date": "2026-08-25",
-   "collected_at": "2026-08-25T06:48:20Z",
+   "collected_at": "2026-08-25T06:51:03Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,

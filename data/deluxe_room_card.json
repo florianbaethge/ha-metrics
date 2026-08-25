@@ -2,11 +2,11 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-25T06:48:55Z",
+  "collected_at": "2026-08-25T06:51:38Z",
   "date": "2026-08-25",
   "errors": [
    "stargazers GraphQL: GraphQL: Resource not accessible by personal access token",
-   "stargazers REST: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"}"
+   "stargazers REST: HTTP 403 bei /repos/florianbaethge/deluxe_room_card/stargazers: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#list-stargazers\",\"status\":\"403\"} [noetig: metadata=read; contents=write]"
   ],
   "description": "Home Assistant Lovelace room card: combined window/cover chips, climate thresholds, light dock, alert bars and rule-based outlines. HACS-compatible.",
   "default_branch": "main",
@@ -440,7 +440,7 @@
   },
   {
    "date": "2026-08-25",
-   "collected_at": "2026-08-25T06:48:55Z",
+   "collected_at": "2026-08-25T06:51:38Z",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
