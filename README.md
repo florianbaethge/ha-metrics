@@ -40,6 +40,19 @@ Ohne Token läuft `collect.py` trotzdem durch: Sterne, Forks, Issues, PRs,
 Releases und Downloads werden gesammelt, nur die Traffic-Felder bleiben `null`
 und landen als Hinweis in `errors`.
 
+## Warum die Stargazer über GraphQL laufen
+
+Der REST-Endpunkt `/repos/…/stargazers` — der einzige Weg an *wer* wann
+gesternt hat — verlangt für Fine-grained-Token die Berechtigung **Contents**
+und antwortet sonst mit `403 Resource not accessible by personal access
+token`. Die reine Sternzahl kommt aus `/repos/…` und ist davon nicht betroffen,
+weshalb der Ausfall lange nur als fehlender Autorenname auffiel.
+
+Die GraphQL-Abfrage `repository.stargazers` liefert dieselben Daten und kommt
+mit dem Lesezugriff aus, den das Token ohnehin hat. `collect.py` fragt deshalb
+zuerst GraphQL und fällt nur bei Fehlschlag auf REST zurück. Ein Fehler landet
+erst dann in `errors`, wenn beide Wege scheitern.
+
 ## Was rauskommt
 
 ```
