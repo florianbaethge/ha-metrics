@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T06:54:24Z",
+ "generated_at": "2026-08-26T05:49:04Z",
  "owner": "florianbaethge",
  "repos": [
   {
@@ -10,18 +10,18 @@
    "watchers": 0,
    "open_issues_count": 0,
    "open_prs_count": 0,
-   "downloads_total": 1052,
+   "downloads_total": 1072,
    "views_14d": 649,
    "clones_14d": 273,
    "latest_release": "v1.9.1",
    "delta_vs_prev_day": {
-    "stars": 1,
+    "stars": 0,
     "forks": 0,
-    "downloads_total": 29,
+    "downloads_total": 20,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-24",
+   "prev_date": "2026-08-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -29,23 +29,23 @@
   {
    "repo": "florianbaethge/bedtime_stories",
    "name": "bedtime_stories",
-   "stars": 0,
+   "stars": 1,
    "forks": 0,
    "watchers": 0,
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 3,
-   "views_14d": 6,
-   "clones_14d": 43,
+   "views_14d": 8,
+   "clones_14d": 46,
    "latest_release": "v0.5.0",
    "delta_vs_prev_day": {
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-24",
+   "prev_date": "2026-08-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -53,23 +53,23 @@
   {
    "repo": "florianbaethge/advanced_cover",
    "name": "advanced_cover",
-   "stars": 0,
+   "stars": 1,
    "forks": 1,
    "watchers": 0,
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 6,
-   "views_14d": 46,
-   "clones_14d": 97,
+   "views_14d": 36,
+   "clones_14d": 84,
    "latest_release": "v0.7.1",
    "delta_vs_prev_day": {
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-24",
+   "prev_date": "2026-08-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -77,23 +77,23 @@
   {
    "repo": "florianbaethge/deluxe_room_card",
    "name": "deluxe_room_card",
-   "stars": 0,
+   "stars": 1,
    "forks": 0,
    "watchers": 0,
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 0,
-   "views_14d": 9,
-   "clones_14d": 37,
-   "latest_release": "v0.3.0",
+   "views_14d": 8,
+   "clones_14d": 54,
+   "latest_release": "v0.3.2",
    "delta_vs_prev_day": {
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-24",
+   "prev_date": "2026-08-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]

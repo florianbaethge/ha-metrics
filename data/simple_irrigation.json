@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-25T06:54:24Z",
-  "date": "2026-08-25",
+  "collected_at": "2026-08-26T05:49:04Z",
+  "date": "2026-08-26",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -71,7 +71,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 203
+      "downloads": 223
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -303,7 +303,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 1052,
+  "downloads_total": 1072,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -312,7 +312,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 203
+     "downloads": 223
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -774,6 +774,20 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 1052,
+   "views_14d": 649,
+   "views_14d_unique": 77,
+   "clones_14d": 273,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-26",
+   "collected_at": "2026-08-26T05:49:04Z",
+   "stars": 11,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1072,
    "views_14d": 649,
    "views_14d_unique": 77,
    "clones_14d": 273,
