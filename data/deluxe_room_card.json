@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-08-26T05:49:58Z",
-  "date": "2026-08-26",
+  "collected_at": "2026-08-27T16:30:14Z",
+  "date": "2026-08-27",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -32,13 +32,6 @@
     "is_pr": true,
     "closed_at": "2026-08-25T08:49:51Z",
     "url": "https://github.com/florianbaethge/deluxe_room_card/pull/3"
-   },
-   {
-    "number": 2,
-    "title": "Absolute humidity thresholds (v0.3.0)",
-    "is_pr": true,
-    "closed_at": "2026-08-19T15:12:31Z",
-    "url": "https://github.com/florianbaethge/deluxe_room_card/pull/2"
    }
   ],
   "releases": [
@@ -94,14 +87,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 8,
+  "views_14d": 6,
   "views_14d_unique": 4,
   "views_daily": [
-   {
-    "timestamp": "2026-08-12T00:00:00Z",
-    "count": 2,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-08-13T00:00:00Z",
     "count": 2,
@@ -166,16 +154,16 @@
     "timestamp": "2026-08-25T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-26T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 54,
-  "clones_14d_unique": 28,
+  "clones_14d": 52,
+  "clones_14d_unique": 26,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-12T00:00:00Z",
-    "count": 3,
-    "uniques": 3
-   },
    {
     "timestamp": "2026-08-13T00:00:00Z",
     "count": 2,
@@ -240,20 +228,25 @@
     "timestamp": "2026-08-25T00:00:00Z",
     "count": 21,
     "uniques": 13
+   },
+   {
+    "timestamp": "2026-08-26T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 6,
-    "uniques": 4
+    "count": 4,
+    "uniques": 3
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/deluxe_room_card",
     "title": "Overview",
-    "count": 6,
+    "count": 4,
     "uniques": 4
    },
    {
@@ -493,6 +486,20 @@
    "views_14d": 8,
    "views_14d_unique": 4,
    "clones_14d": 54,
+   "latest_release": "v0.3.2"
+  },
+  {
+   "date": "2026-08-27",
+   "collected_at": "2026-08-27T16:30:14Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 6,
+   "views_14d_unique": 4,
+   "clones_14d": 52,
    "latest_release": "v0.3.2"
   }
  ]
