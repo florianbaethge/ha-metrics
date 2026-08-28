@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-08-27T16:29:54Z",
-  "date": "2026-08-27",
+  "collected_at": "2026-08-28T17:26:07Z",
+  "date": "2026-08-28",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -216,14 +216,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 28,
-  "views_14d_unique": 7,
+  "views_14d": 4,
+  "views_14d_unique": 4,
   "views_daily": [
-   {
-    "timestamp": "2026-08-13T00:00:00Z",
-    "count": 24,
-    "uniques": 3
-   },
    {
     "timestamp": "2026-08-14T00:00:00Z",
     "count": 1,
@@ -286,18 +281,18 @@
    },
    {
     "timestamp": "2026-08-26T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-27T00:00:00Z",
     "count": 0,
     "uniques": 0
    }
   ],
-  "clones_14d": 67,
-  "clones_14d_unique": 21,
+  "clones_14d": 21,
+  "clones_14d_unique": 8,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-13T00:00:00Z",
-    "count": 48,
-    "uniques": 15
-   },
    {
     "timestamp": "2026-08-14T00:00:00Z",
     "count": 2,
@@ -360,6 +355,11 @@
    },
    {
     "timestamp": "2026-08-26T00:00:00Z",
+    "count": 2,
+    "uniques": 2
+   },
+   {
+    "timestamp": "2026-08-27T00:00:00Z",
     "count": 2,
     "uniques": 2
    }
@@ -367,62 +367,20 @@
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 24,
-    "uniques": 6
+    "count": 3,
+    "uniques": 3
    }
   ],
   "top_paths": [
    {
     "path": "/florianbaethge/advanced_cover",
     "title": "Overview",
-    "count": 9,
-    "uniques": 6
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/pulls",
-    "title": "/pulls",
-    "count": 8,
-    "uniques": 2
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/pull/17",
-    "title": "/pull/17",
     "count": 3,
-    "uniques": 1
+    "uniques": 3
    },
    {
     "path": "/florianbaethge/advanced_cover/releases/tag/v0.7.1",
     "title": "/releases/tag/v0.7.1",
-    "count": 2,
-    "uniques": 2
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/issues",
-    "title": "/issues",
-    "count": 2,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/pull/17/changes",
-    "title": "/pull/17/changes",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/pull/18",
-    "title": "/pull/18",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/releases/tag/v0.6.4",
-    "title": "/releases/tag/v0.6.4",
-    "count": 1,
-    "uniques": 1
-   },
-   {
-    "path": "/florianbaethge/advanced_cover/releases/tag/v0.7.0",
-    "title": "/releases/tag/v0.7.0",
     "count": 1,
     "uniques": 1
    }
@@ -665,6 +623,20 @@
    "views_14d": 28,
    "views_14d_unique": 7,
    "clones_14d": 67,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-08-28",
+   "collected_at": "2026-08-28T17:26:07Z",
+   "stars": 1,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 4,
+   "views_14d_unique": 4,
+   "clones_14d": 21,
    "latest_release": "v0.7.1"
   }
  ]
