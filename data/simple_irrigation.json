@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-28T17:25:32Z",
-  "date": "2026-08-28",
+  "collected_at": "2026-08-29T11:38:57Z",
+  "date": "2026-08-29",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -756,6 +756,20 @@
   {
    "date": "2026-08-28",
    "collected_at": "2026-08-28T17:25:32Z",
+   "stars": 11,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1090,
+   "views_14d": 318,
+   "views_14d_unique": 66,
+   "clones_14d": 103,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-29",
+   "collected_at": "2026-08-29T11:38:57Z",
    "stars": 11,
    "forks": 6,
    "watchers": 0,

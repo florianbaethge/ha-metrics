@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T17:25:32Z",
+ "generated_at": "2026-08-29T11:38:57Z",
  "owner": "florianbaethge",
  "repos": [
   {
@@ -17,11 +17,11 @@
    "delta_vs_prev_day": {
     "stars": 0,
     "forks": 0,
-    "downloads_total": 7,
+    "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-27",
+   "prev_date": "2026-08-28",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -45,7 +45,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-27",
+   "prev_date": "2026-08-28",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -69,7 +69,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-27",
+   "prev_date": "2026-08-28",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -93,7 +93,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-08-27",
+   "prev_date": "2026-08-28",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
