@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-08-30T10:28:26Z",
-  "date": "2026-08-30",
+  "collected_at": "2026-08-31T11:34:49Z",
+  "date": "2026-08-31",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -28,7 +28,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 246
+      "downloads": 252
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -260,7 +260,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 1096,
+  "downloads_total": 1102,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -269,21 +269,16 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 246
+     "downloads": 252
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 261,
-  "views_14d_unique": 63,
+  "views_14d": 208,
+  "views_14d_unique": 56,
   "views_daily": [
-   {
-    "timestamp": "2026-08-16T00:00:00Z",
-    "count": 54,
-    "uniques": 14
-   },
    {
     "timestamp": "2026-08-17T00:00:00Z",
     "count": 34,
@@ -348,16 +343,16 @@
     "timestamp": "2026-08-29T00:00:00Z",
     "count": 3,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-08-30T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
-  "clones_14d": 88,
-  "clones_14d_unique": 45,
+  "clones_14d": 86,
+  "clones_14d_unique": 43,
   "clones_daily": [
-   {
-    "timestamp": "2026-08-16T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-08-17T00:00:00Z",
     "count": 0,
@@ -422,18 +417,23 @@
     "timestamp": "2026-08-29T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-08-30T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 84,
+    "count": 72,
     "uniques": 13
    },
    {
     "referrer": "Google",
-    "count": 31,
-    "uniques": 12
+    "count": 26,
+    "uniques": 11
    },
    {
     "referrer": "Bing",
@@ -455,32 +455,32 @@
    {
     "path": "/florianbaethge/simple_irrigation",
     "title": "Overview",
-    "count": 93,
-    "uniques": 46
+    "count": 80,
+    "uniques": 40
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues",
     "title": "/issues",
-    "count": 36,
-    "uniques": 17
-   },
-   {
-    "path": "/florianbaethge/simple_irrigation/pulls",
-    "title": "/pulls",
-    "count": 20,
-    "uniques": 8
-   },
-   {
-    "path": "/florianbaethge/simple_irrigation/issues/46",
-    "title": "/issues/46",
-    "count": 19,
-    "uniques": 7
+    "count": 30,
+    "uniques": 14
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues/43",
     "title": "/issues/43",
-    "count": 16,
+    "count": 15,
     "uniques": 3
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/issues/46",
+    "title": "/issues/46",
+    "count": 14,
+    "uniques": 6
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/pulls",
+    "title": "/pulls",
+    "count": 14,
+    "uniques": 5
    },
    {
     "path": "/florianbaethge/simple_irrigation/releases/v1.8.0",
@@ -489,28 +489,28 @@
     "uniques": 5
    },
    {
-    "path": "/florianbaethge/simple_irrigation/actions",
-    "title": "/actions",
-    "count": 6,
-    "uniques": 4
-   },
-   {
-    "path": "/florianbaethge/simple_irrigation/pull/44",
-    "title": "/pull/44",
-    "count": 5,
-    "uniques": 3
-   },
-   {
-    "path": "/florianbaethge/simple_irrigation/releases/v1.7.0",
-    "title": "/releases/v1.7.0",
-    "count": 5,
-    "uniques": 3
-   },
-   {
     "path": "/florianbaethge/simple_irrigation/releases/v1.9.1",
     "title": "/releases/v1.9.1",
     "count": 4,
     "uniques": 4
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/blob/main/README.md",
+    "title": "/blob/main/README.md",
+    "count": 4,
+    "uniques": 3
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/pull/50",
+    "title": "/pull/50",
+    "count": 4,
+    "uniques": 1
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/actions",
+    "title": "/actions",
+    "count": 3,
+    "uniques": 3
    }
   ]
  },
@@ -793,6 +793,20 @@
    "views_14d": 261,
    "views_14d_unique": 63,
    "clones_14d": 88,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-08-31",
+   "collected_at": "2026-08-31T11:34:49Z",
+   "stars": 11,
+   "forks": 6,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1102,
+   "views_14d": 208,
+   "views_14d_unique": 56,
+   "clones_14d": 86,
    "latest_release": "v1.9.1"
   }
  ]
