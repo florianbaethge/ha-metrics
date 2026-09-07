@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-09-06T09:25:08Z",
-  "date": "2026-09-06",
+  "collected_at": "2026-09-07T10:14:55Z",
+  "date": "2026-09-07",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -688,6 +688,20 @@
   {
    "date": "2026-09-06",
    "collected_at": "2026-09-06T09:25:08Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 3,
+   "views_14d": 3,
+   "views_14d_unique": 2,
+   "clones_14d": 23,
+   "latest_release": "v0.5.0"
+  },
+  {
+   "date": "2026-09-07",
+   "collected_at": "2026-09-07T10:14:55Z",
    "stars": 1,
    "forks": 0,
    "watchers": 0,

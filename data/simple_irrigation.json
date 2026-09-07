@@ -2,21 +2,32 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-09-06T09:24:50Z",
-  "date": "2026-09-06",
+  "collected_at": "2026-09-07T10:14:37Z",
+  "date": "2026-09-07",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
-  "stars": 11,
+  "stars": 12,
   "forks": 6,
   "watchers": 1,
   "pushed_at": "2026-08-20T19:59:11Z",
   "archived": false,
-  "open_issues": [],
+  "open_issues": [
+   {
+    "number": 53,
+    "title": "stop button issue",
+    "user": "akosos",
+    "created_at": "2026-09-06T11:40:29Z",
+    "updated_at": "2026-09-06T11:53:00Z",
+    "comments": 1,
+    "labels": [],
+    "url": "https://github.com/florianbaethge/simple_irrigation/issues/53"
+   }
+  ],
   "open_prs": [],
-  "open_issues_count": 0,
+  "open_issues_count": 1,
   "open_prs_count": 0,
   "recently_closed": [
    {
@@ -36,7 +47,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 276
+      "downloads": 282
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -62,7 +73,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 122
+      "downloads": 123
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.8.0"
@@ -268,7 +279,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 1136,
+  "downloads_total": 1143,
   "latest_release": {
    "tag": "v1.9.1",
    "name": "v1.9.1",
@@ -277,7 +288,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 276
+     "downloads": 282
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.9.1"
@@ -886,6 +897,20 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 1136,
+   "views_14d": 116,
+   "views_14d_unique": 36,
+   "clones_14d": 22,
+   "latest_release": "v1.9.1"
+  },
+  {
+   "date": "2026-09-07",
+   "collected_at": "2026-09-07T10:14:37Z",
+   "stars": 12,
+   "forks": 6,
+   "watchers": 1,
+   "open_issues_count": 1,
+   "open_prs_count": 0,
+   "downloads_total": 1143,
    "views_14d": 116,
    "views_14d_unique": 36,
    "clones_14d": 22,
