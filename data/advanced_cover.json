@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-09-08T09:39:42Z",
-  "date": "2026-09-08",
+  "collected_at": "2026-09-09T09:43:20Z",
+  "date": "2026-09-09",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -782,6 +782,20 @@
   {
    "date": "2026-09-08",
    "collected_at": "2026-09-08T09:39:42Z",
+   "stars": 1,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 6,
+   "views_14d": 4,
+   "views_14d_unique": 3,
+   "clones_14d": 24,
+   "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-09-09",
+   "collected_at": "2026-09-09T09:43:20Z",
    "stars": 1,
    "forks": 1,
    "watchers": 0,
