@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T10:10:32Z",
+ "generated_at": "2026-09-26T09:50:50Z",
  "owner": "florianbaethge",
  "repos": [
   {
@@ -8,20 +8,20 @@
    "stars": 12,
    "forks": 6,
    "watchers": 1,
-   "open_issues_count": 2,
-   "open_prs_count": 1,
-   "downloads_total": 1533,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 1635,
    "views_14d": 159,
    "clones_14d": 34,
-   "latest_release": "v1.11.0",
+   "latest_release": "v1.12.0",
    "delta_vs_prev_day": {
     "stars": 0,
     "forks": 0,
-    "downloads_total": 3,
-    "open_issues_count": 0,
-    "open_prs_count": 1
+    "downloads_total": 102,
+    "open_issues_count": -2,
+    "open_prs_count": -1
    },
-   "prev_date": "2026-09-24",
+   "prev_date": "2026-09-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -45,7 +45,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-24",
+   "prev_date": "2026-09-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -69,7 +69,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-24",
+   "prev_date": "2026-09-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -93,7 +93,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-24",
+   "prev_date": "2026-09-25",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]

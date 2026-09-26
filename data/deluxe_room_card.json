@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-09-25T10:11:24Z",
-  "date": "2026-09-25",
+  "collected_at": "2026-09-26T09:51:41Z",
+  "date": "2026-09-26",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -870,6 +870,20 @@
   {
    "date": "2026-09-25",
    "collected_at": "2026-09-25T10:11:24Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 2,
+   "views_14d_unique": 2,
+   "clones_14d": 18,
+   "latest_release": "v0.3.2"
+  },
+  {
+   "date": "2026-09-26",
+   "collected_at": "2026-09-26T09:51:41Z",
    "stars": 1,
    "forks": 0,
    "watchers": 0,
