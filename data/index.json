@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:09:09Z",
+ "generated_at": "2026-10-01T11:35:53Z",
  "owner": "florianbaethge",
  "repos": [
   {
@@ -10,18 +10,18 @@
    "watchers": 1,
    "open_issues_count": 1,
    "open_prs_count": 4,
-   "downloads_total": 1781,
-   "views_14d": 211,
-   "clones_14d": 134,
+   "downloads_total": 1794,
+   "views_14d": 196,
+   "clones_14d": 133,
    "latest_release": "v1.12.0",
    "delta_vs_prev_day": {
     "stars": 0,
     "forks": 0,
-    "downloads_total": 16,
+    "downloads_total": 13,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-29",
+   "prev_date": "2026-09-30",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -45,7 +45,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-29",
+   "prev_date": "2026-09-30",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -59,17 +59,17 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 7,
-   "views_14d": 3,
+   "views_14d": 4,
    "clones_14d": 25,
    "latest_release": "v0.7.1",
    "delta_vs_prev_day": {
     "stars": 0,
     "forks": 0,
-    "downloads_total": 1,
+    "downloads_total": 0,
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-29",
+   "prev_date": "2026-09-30",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
@@ -93,7 +93,7 @@
     "open_issues_count": 0,
     "open_prs_count": 0
    },
-   "prev_date": "2026-09-29",
+   "prev_date": "2026-09-30",
    "errors": [
     "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
    ]
