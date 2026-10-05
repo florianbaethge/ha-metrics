@@ -2,17 +2,17 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-10-04T11:05:50Z",
-  "date": "2026-10-04",
+  "collected_at": "2026-10-05T12:14:46Z",
+  "date": "2026-10-05",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
   "description": "Irrigation scheduler with a built-in panel — zones, cycles & watering modes",
   "default_branch": "main",
   "stars": 12,
-  "forks": 7,
+  "forks": 8,
   "watchers": 1,
-  "pushed_at": "2026-09-25T15:34:15Z",
+  "pushed_at": "2026-10-05T11:35:00Z",
   "archived": false,
   "open_issues": [
    {
@@ -27,6 +27,28 @@
    }
   ],
   "open_prs": [
+   {
+    "number": 67,
+    "title": "Release v1.13.0",
+    "user": "florianbaethge",
+    "created_at": "2026-10-05T08:36:12Z",
+    "updated_at": "2026-10-05T11:35:02Z",
+    "comments": 0,
+    "labels": [],
+    "url": "https://github.com/florianbaethge/simple_irrigation/pull/67",
+    "draft": true
+   },
+   {
+    "number": 66,
+    "title": "Add set_zone_duration service",
+    "user": "hubcasale",
+    "created_at": "2026-10-05T05:18:19Z",
+    "updated_at": "2026-10-05T05:18:20Z",
+    "comments": 0,
+    "labels": [],
+    "url": "https://github.com/florianbaethge/simple_irrigation/pull/66",
+    "draft": false
+   },
    {
     "number": 65,
     "title": "Add schedule-specific watering durations per zone",
@@ -48,33 +70,26 @@
     "labels": [],
     "url": "https://github.com/florianbaethge/simple_irrigation/pull/64",
     "draft": false
-   },
-   {
-    "number": 63,
-    "title": "Add multiple start times and queue overlapping scheduled runs",
-    "user": "gszigethy",
-    "created_at": "2026-09-29T04:48:55Z",
-    "updated_at": "2026-09-29T12:51:34Z",
-    "comments": 0,
-    "labels": [],
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/63",
-    "draft": false
-   },
-   {
-    "number": 62,
-    "title": "Add persistent zone ordering",
-    "user": "gszigethy",
-    "created_at": "2026-09-28T18:25:25Z",
-    "updated_at": "2026-09-28T18:25:26Z",
-    "comments": 0,
-    "labels": [],
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/62",
-    "draft": false
    }
   ],
   "open_issues_count": 1,
   "open_prs_count": 4,
-  "recently_closed": [],
+  "recently_closed": [
+   {
+    "number": 63,
+    "title": "Add multiple start times and queue overlapping scheduled runs",
+    "is_pr": true,
+    "closed_at": "2026-10-05T11:18:41Z",
+    "url": "https://github.com/florianbaethge/simple_irrigation/pull/63"
+   },
+   {
+    "number": 62,
+    "title": "Add persistent zone ordering",
+    "is_pr": true,
+    "closed_at": "2026-10-05T08:36:02Z",
+    "url": "https://github.com/florianbaethge/simple_irrigation/pull/62"
+   }
+  ],
   "releases": [
    {
     "tag": "v1.12.0",
@@ -84,7 +99,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 292
+      "downloads": 303
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.12.0"
@@ -355,7 +370,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 1830,
+  "downloads_total": 1841,
   "latest_release": {
    "tag": "v1.12.0",
    "name": "v1.12.0",
@@ -364,7 +379,7 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 292
+     "downloads": 303
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.12.0"
@@ -372,19 +387,19 @@
   "stars_last_7d": [],
   "forks_last_7d": [
    {
+    "user": "hubcasale",
+    "at": "2026-10-05T05:13:45Z",
+    "url": "https://github.com/hubcasale/simple_irrigation"
+   },
+   {
     "user": "gszigethy",
     "at": "2026-09-28T14:00:04Z",
     "url": "https://github.com/gszigethy/simple_irrigation"
    }
   ],
-  "views_14d": 171,
-  "views_14d_unique": 36,
+  "views_14d": 166,
+  "views_14d_unique": 37,
   "views_daily": [
-   {
-    "timestamp": "2026-09-20T00:00:00Z",
-    "count": 13,
-    "uniques": 5
-   },
    {
     "timestamp": "2026-09-21T00:00:00Z",
     "count": 10,
@@ -449,16 +464,16 @@
     "timestamp": "2026-10-03T00:00:00Z",
     "count": 2,
     "uniques": 2
+   },
+   {
+    "timestamp": "2026-10-04T00:00:00Z",
+    "count": 8,
+    "uniques": 5
    }
   ],
-  "clones_14d": 130,
-  "clones_14d_unique": 73,
+  "clones_14d": 131,
+  "clones_14d_unique": 72,
   "clones_daily": [
-   {
-    "timestamp": "2026-09-20T00:00:00Z",
-    "count": 3,
-    "uniques": 3
-   },
    {
     "timestamp": "2026-09-21T00:00:00Z",
     "count": 12,
@@ -523,18 +538,23 @@
     "timestamp": "2026-10-03T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-10-04T00:00:00Z",
+    "count": 4,
+    "uniques": 3
    }
   ],
   "referrers": [
    {
     "referrer": "github.com",
-    "count": 15,
-    "uniques": 10
+    "count": 12,
+    "uniques": 8
    },
    {
     "referrer": "Google",
-    "count": 7,
-    "uniques": 6
+    "count": 10,
+    "uniques": 8
    },
    {
     "referrer": "chatgpt.com",
@@ -551,26 +571,26 @@
    {
     "path": "/florianbaethge/simple_irrigation",
     "title": "Overview",
-    "count": 57,
-    "uniques": 29
+    "count": 62,
+    "uniques": 31
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues/56",
     "title": "/issues/56",
-    "count": 28,
+    "count": 23,
     "uniques": 3
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues",
     "title": "/issues",
-    "count": 24,
-    "uniques": 10
+    "count": 22,
+    "uniques": 9
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues/57",
     "title": "/issues/57",
-    "count": 12,
-    "uniques": 6
+    "count": 10,
+    "uniques": 5
    },
    {
     "path": "/florianbaethge/simple_irrigation/pulls",
@@ -1379,6 +1399,20 @@
    "views_14d": 171,
    "views_14d_unique": 36,
    "clones_14d": 130,
+   "latest_release": "v1.12.0"
+  },
+  {
+   "date": "2026-10-05",
+   "collected_at": "2026-10-05T12:14:46Z",
+   "stars": 12,
+   "forks": 8,
+   "watchers": 1,
+   "open_issues_count": 1,
+   "open_prs_count": 4,
+   "downloads_total": 1841,
+   "views_14d": 166,
+   "views_14d_unique": 37,
+   "clones_14d": 131,
    "latest_release": "v1.12.0"
   }
  ]
