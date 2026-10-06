@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-10-05T12:15:25Z",
-  "date": "2026-10-05",
+  "collected_at": "2026-10-06T12:01:12Z",
+  "date": "2026-10-06",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -12,14 +12,35 @@
   "stars": 1,
   "forks": 1,
   "watchers": 0,
-  "pushed_at": "2026-08-13T11:16:12Z",
+  "pushed_at": "2026-10-05T18:13:47Z",
   "archived": false,
   "open_issues": [],
   "open_prs": [],
   "open_issues_count": 0,
   "open_prs_count": 0,
-  "recently_closed": [],
+  "recently_closed": [
+   {
+    "number": 22,
+    "title": "v0.8.0: yearly active periods and an accordion scenario editor",
+    "is_pr": true,
+    "closed_at": "2026-10-05T18:13:34Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/22"
+   }
+  ],
   "releases": [
+   {
+    "tag": "v0.8.0",
+    "name": "v0.8.0",
+    "published_at": "2026-10-05T18:14:02Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 1
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.8.0"
+   },
    {
     "tag": "v0.7.1",
     "name": "v0.7.1",
@@ -200,19 +221,19 @@
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 7,
+  "downloads_total": 8,
   "latest_release": {
-   "tag": "v0.7.1",
-   "name": "v0.7.1",
-   "published_at": "2026-08-13T11:16:03Z",
+   "tag": "v0.8.0",
+   "name": "v0.8.0",
+   "published_at": "2026-10-05T18:14:02Z",
    "prerelease": false,
    "assets": [
     {
      "name": "advanced_cover.zip",
-     "downloads": 3
+     "downloads": 1
     }
    ],
-   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.7.1"
+   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.8.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
@@ -220,11 +241,6 @@
   "views_14d_unique": 3,
   "views_daily": [
    {
-    "timestamp": "2026-09-21T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-09-22T00:00:00Z",
     "count": 1,
     "uniques": 1
@@ -286,18 +302,18 @@
    },
    {
     "timestamp": "2026-10-04T00:00:00Z",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "timestamp": "2026-10-05T00:00:00Z",
     "count": 0,
     "uniques": 0
    }
   ],
-  "clones_14d": 23,
-  "clones_14d_unique": 10,
+  "clones_14d": 50,
+  "clones_14d_unique": 19,
   "clones_daily": [
-   {
-    "timestamp": "2026-09-21T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-09-22T00:00:00Z",
     "count": 1,
@@ -362,6 +378,11 @@
     "timestamp": "2026-10-04T00:00:00Z",
     "count": 1,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-10-05T00:00:00Z",
+    "count": 29,
+    "uniques": 11
    }
   ],
   "referrers": [
@@ -1164,6 +1185,20 @@
    "views_14d_unique": 3,
    "clones_14d": 23,
    "latest_release": "v0.7.1"
+  },
+  {
+   "date": "2026-10-06",
+   "collected_at": "2026-10-06T12:01:12Z",
+   "stars": 1,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 8,
+   "views_14d": 3,
+   "views_14d_unique": 3,
+   "clones_14d": 50,
+   "latest_release": "v0.8.0"
   }
  ]
 }
