@@ -2,8 +2,8 @@
  "repo": "florianbaethge/simple_irrigation",
  "current": {
   "repo": "florianbaethge/simple_irrigation",
-  "collected_at": "2026-10-11T11:23:08Z",
-  "date": "2026-10-11",
+  "collected_at": "2026-10-12T13:07:50Z",
+  "date": "2026-10-12",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -60,27 +60,6 @@
     "is_pr": true,
     "closed_at": "2026-10-06T08:27:54Z",
     "url": "https://github.com/florianbaethge/simple_irrigation/pull/65"
-   },
-   {
-    "number": 66,
-    "title": "Add set_zone_duration service",
-    "is_pr": true,
-    "closed_at": "2026-10-05T12:35:09Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/66"
-   },
-   {
-    "number": 63,
-    "title": "Add multiple start times and queue overlapping scheduled runs",
-    "is_pr": true,
-    "closed_at": "2026-10-05T11:18:41Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/63"
-   },
-   {
-    "number": 62,
-    "title": "Add persistent zone ordering",
-    "is_pr": true,
-    "closed_at": "2026-10-05T08:36:02Z",
-    "url": "https://github.com/florianbaethge/simple_irrigation/pull/62"
    }
   ],
   "releases": [
@@ -92,7 +71,7 @@
     "assets": [
      {
       "name": "simple_irrigation.zip",
-      "downloads": 246
+      "downloads": 262
      }
     ],
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.13.0"
@@ -376,7 +355,7 @@
     "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 2108,
+  "downloads_total": 2124,
   "latest_release": {
    "tag": "v1.13.0",
    "name": "v1.13.0",
@@ -385,27 +364,16 @@
    "assets": [
     {
      "name": "simple_irrigation.zip",
-     "downloads": 246
+     "downloads": 262
     }
    ],
    "url": "https://github.com/florianbaethge/simple_irrigation/releases/tag/v1.13.0"
   },
   "stars_last_7d": [],
-  "forks_last_7d": [
-   {
-    "user": "hubcasale",
-    "at": "2026-10-05T05:13:45Z",
-    "url": "https://github.com/hubcasale/simple_irrigation"
-   }
-  ],
-  "views_14d": 140,
-  "views_14d_unique": 41,
+  "forks_last_7d": [],
+  "views_14d": 134,
+  "views_14d_unique": 39,
   "views_daily": [
-   {
-    "timestamp": "2026-09-27T00:00:00Z",
-    "count": 9,
-    "uniques": 6
-   },
    {
     "timestamp": "2026-09-28T00:00:00Z",
     "count": 20,
@@ -470,16 +438,16 @@
     "timestamp": "2026-10-10T00:00:00Z",
     "count": 8,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-10-11T00:00:00Z",
+    "count": 3,
+    "uniques": 2
    }
   ],
-  "clones_14d": 301,
-  "clones_14d_unique": 121,
+  "clones_14d": 304,
+  "clones_14d_unique": 123,
   "clones_daily": [
-   {
-    "timestamp": "2026-09-27T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-09-28T00:00:00Z",
     "count": 6,
@@ -544,13 +512,18 @@
     "timestamp": "2026-10-10T00:00:00Z",
     "count": 1,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-10-11T00:00:00Z",
+    "count": 3,
+    "uniques": 3
    }
   ],
   "referrers": [
    {
     "referrer": "Google",
-    "count": 12,
-    "uniques": 11
+    "count": 11,
+    "uniques": 10
    },
    {
     "referrer": "github.com",
@@ -567,8 +540,8 @@
    {
     "path": "/florianbaethge/simple_irrigation",
     "title": "Overview",
-    "count": 69,
-    "uniques": 35
+    "count": 64,
+    "uniques": 34
    },
    {
     "path": "/florianbaethge/simple_irrigation/issues",
@@ -601,12 +574,6 @@
     "uniques": 2
    },
    {
-    "path": "/florianbaethge/simple_irrigation/releases/v1.12.0",
-    "title": "/releases/v1.12.0",
-    "count": 3,
-    "uniques": 2
-   },
-   {
     "path": "/florianbaethge/simple_irrigation/pull/65",
     "title": "/pull/65",
     "count": 2,
@@ -621,6 +588,12 @@
    {
     "path": "/florianbaethge/simple_irrigation/issues/68",
     "title": "/issues/68",
+    "count": 2,
+    "uniques": 1
+   },
+   {
+    "path": "/florianbaethge/simple_irrigation/pull/62",
+    "title": "/pull/62",
     "count": 2,
     "uniques": 1
    }
@@ -1493,6 +1466,20 @@
    "views_14d": 140,
    "views_14d_unique": 41,
    "clones_14d": 301,
+   "latest_release": "v1.13.0"
+  },
+  {
+   "date": "2026-10-12",
+   "collected_at": "2026-10-12T13:07:50Z",
+   "stars": 13,
+   "forks": 7,
+   "watchers": 1,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 2124,
+   "views_14d": 134,
+   "views_14d_unique": 39,
+   "clones_14d": 304,
    "latest_release": "v1.13.0"
   }
  ]
