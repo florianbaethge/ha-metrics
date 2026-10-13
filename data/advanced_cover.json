@@ -2,8 +2,8 @@
  "repo": "florianbaethge/advanced_cover",
  "current": {
   "repo": "florianbaethge/advanced_cover",
-  "collected_at": "2026-10-12T13:08:28Z",
-  "date": "2026-10-12",
+  "collected_at": "2026-10-13T12:41:33Z",
+  "date": "2026-10-13",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -12,7 +12,7 @@
   "stars": 1,
   "forks": 1,
   "watchers": 0,
-  "pushed_at": "2026-10-05T18:13:47Z",
+  "pushed_at": "2026-10-12T19:16:07Z",
   "archived": false,
   "open_issues": [],
   "open_prs": [],
@@ -20,14 +20,27 @@
   "open_prs_count": 0,
   "recently_closed": [
    {
-    "number": 22,
-    "title": "v0.8.0: yearly active periods and an accordion scenario editor",
+    "number": 23,
+    "title": "Dashboard card (v0.9.0)",
     "is_pr": true,
-    "closed_at": "2026-10-05T18:13:34Z",
-    "url": "https://github.com/florianbaethge/advanced_cover/pull/22"
+    "closed_at": "2026-10-12T19:15:51Z",
+    "url": "https://github.com/florianbaethge/advanced_cover/pull/23"
    }
   ],
   "releases": [
+   {
+    "tag": "v0.9.0",
+    "name": "v0.9.0",
+    "published_at": "2026-10-12T19:16:10Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "advanced_cover.zip",
+      "downloads": 3
+     }
+    ],
+    "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.9.0"
+   },
    {
     "tag": "v0.8.0",
     "name": "v0.8.0",
@@ -36,7 +49,7 @@
     "assets": [
      {
       "name": "advanced_cover.zip",
-      "downloads": 2
+      "downloads": 4
      }
     ],
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.8.0"
@@ -221,30 +234,25 @@
     "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 9,
+  "downloads_total": 14,
   "latest_release": {
-   "tag": "v0.8.0",
-   "name": "v0.8.0",
-   "published_at": "2026-10-05T18:14:02Z",
+   "tag": "v0.9.0",
+   "name": "v0.9.0",
+   "published_at": "2026-10-12T19:16:10Z",
    "prerelease": false,
    "assets": [
     {
      "name": "advanced_cover.zip",
-     "downloads": 2
+     "downloads": 3
     }
    ],
-   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.8.0"
+   "url": "https://github.com/florianbaethge/advanced_cover/releases/tag/v0.9.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
   "views_14d": 1,
   "views_14d_unique": 1,
   "views_daily": [
-   {
-    "timestamp": "2026-09-28T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-09-29T00:00:00Z",
     "count": 0,
@@ -309,16 +317,16 @@
     "timestamp": "2026-10-11T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-10-12T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 51,
-  "clones_14d_unique": 20,
+  "clones_14d": 73,
+  "clones_14d_unique": 24,
   "clones_daily": [
-   {
-    "timestamp": "2026-09-28T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-09-29T00:00:00Z",
     "count": 1,
@@ -383,6 +391,11 @@
     "timestamp": "2026-10-11T00:00:00Z",
     "count": 2,
     "uniques": 2
+   },
+   {
+    "timestamp": "2026-10-12T00:00:00Z",
+    "count": 24,
+    "uniques": 7
    }
   ],
   "referrers": [
@@ -1283,6 +1296,20 @@
    "views_14d_unique": 1,
    "clones_14d": 51,
    "latest_release": "v0.8.0"
+  },
+  {
+   "date": "2026-10-13",
+   "collected_at": "2026-10-13T12:41:33Z",
+   "stars": 1,
+   "forks": 1,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 14,
+   "views_14d": 1,
+   "views_14d_unique": 1,
+   "clones_14d": 73,
+   "latest_release": "v0.9.0"
   }
  ]
 }
