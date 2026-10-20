@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-10-19T10:43:49Z",
-  "date": "2026-10-19",
+  "collected_at": "2026-10-20T10:01:04Z",
+  "date": "2026-10-20",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -28,7 +28,7 @@
     "assets": [
      {
       "name": "bedtime_stories.zip",
-      "downloads": 5
+      "downloads": 9
      }
     ],
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.5.0"
@@ -140,7 +140,7 @@
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 8,
+  "downloads_total": 12,
   "latest_release": {
    "tag": "v0.5.0",
    "name": "v0.5.0",
@@ -149,22 +149,17 @@
    "assets": [
     {
      "name": "bedtime_stories.zip",
-     "downloads": 5
+     "downloads": 9
     }
    ],
    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.5.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 1,
+  "views_14d": 2,
   "views_14d_unique": 1,
   "views_daily": [
    {
-    "timestamp": "2026-10-05T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
-   {
     "timestamp": "2026-10-06T00:00:00Z",
     "count": 0,
     "uniques": 0
@@ -228,16 +223,16 @@
     "timestamp": "2026-10-18T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-10-19T00:00:00Z",
+    "count": 2,
+    "uniques": 1
    }
   ],
-  "clones_14d": 24,
-  "clones_14d_unique": 11,
+  "clones_14d": 23,
+  "clones_14d_unique": 10,
   "clones_daily": [
-   {
-    "timestamp": "2026-10-05T00:00:00Z",
-    "count": 3,
-    "uniques": 3
-   },
    {
     "timestamp": "2026-10-06T00:00:00Z",
     "count": 1,
@@ -302,6 +297,11 @@
     "timestamp": "2026-10-18T00:00:00Z",
     "count": 3,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-10-19T00:00:00Z",
+    "count": 2,
+    "uniques": 2
    }
   ],
   "referrers": [],
@@ -309,6 +309,12 @@
    {
     "path": "/florianbaethge/bedtime_stories",
     "title": "Overview",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "path": "/florianbaethge/bedtime_stories/issues",
+    "title": "/issues",
     "count": 1,
     "uniques": 1
    }
@@ -1293,6 +1299,20 @@
    "views_14d": 1,
    "views_14d_unique": 1,
    "clones_14d": 24,
+   "latest_release": "v0.5.0"
+  },
+  {
+   "date": "2026-10-20",
+   "collected_at": "2026-10-20T10:01:04Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 12,
+   "views_14d": 2,
+   "views_14d_unique": 1,
+   "clones_14d": 23,
    "latest_release": "v0.5.0"
   }
  ]
