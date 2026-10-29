@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-10-28T11:18:46Z",
-  "date": "2026-10-28",
+  "collected_at": "2026-10-29T11:29:47Z",
+  "date": "2026-10-29",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -12,14 +12,35 @@
   "stars": 2,
   "forks": 0,
   "watchers": 0,
-  "pushed_at": "2026-08-18T18:21:26Z",
+  "pushed_at": "2026-10-28T12:08:17Z",
   "archived": false,
   "open_issues": [],
   "open_prs": [],
   "open_issues_count": 0,
   "open_prs_count": 0,
-  "recently_closed": [],
+  "recently_closed": [
+   {
+    "number": 15,
+    "title": "v0.6.0: optimize legacy covers, README restructure",
+    "is_pr": true,
+    "closed_at": "2026-10-28T12:08:09Z",
+    "url": "https://github.com/florianbaethge/bedtime_stories/pull/15"
+   }
+  ],
   "releases": [
+   {
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "published_at": "2026-10-28T12:08:21Z",
+    "prerelease": false,
+    "assets": [
+     {
+      "name": "bedtime_stories.zip",
+      "downloads": 10
+     }
+    ],
+    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
+   },
    {
     "tag": "v0.5.0",
     "name": "v0.5.0",
@@ -140,30 +161,25 @@
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 22,
+  "downloads_total": 32,
   "latest_release": {
-   "tag": "v0.5.0",
-   "name": "v0.5.0",
-   "published_at": "2026-08-18T18:21:36Z",
+   "tag": "v0.6.0",
+   "name": "v0.6.0",
+   "published_at": "2026-10-28T12:08:21Z",
    "prerelease": false,
    "assets": [
     {
      "name": "bedtime_stories.zip",
-     "downloads": 19
+     "downloads": 10
     }
    ],
-   "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.5.0"
+   "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 5,
-  "views_14d_unique": 3,
+  "views_14d": 6,
+  "views_14d_unique": 4,
   "views_daily": [
-   {
-    "timestamp": "2026-10-14T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-10-15T00:00:00Z",
     "count": 0,
@@ -228,16 +244,16 @@
     "timestamp": "2026-10-27T00:00:00Z",
     "count": 3,
     "uniques": 2
-   }
-  ],
-  "clones_14d": 30,
-  "clones_14d_unique": 13,
-  "clones_daily": [
+   },
    {
-    "timestamp": "2026-10-14T00:00:00Z",
+    "timestamp": "2026-10-28T00:00:00Z",
     "count": 1,
     "uniques": 1
-   },
+   }
+  ],
+  "clones_14d": 55,
+  "clones_14d_unique": 23,
+  "clones_daily": [
    {
     "timestamp": "2026-10-15T00:00:00Z",
     "count": 1,
@@ -302,6 +318,11 @@
     "timestamp": "2026-10-27T00:00:00Z",
     "count": 3,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-10-28T00:00:00Z",
+    "count": 26,
+    "uniques": 11
    }
   ],
   "referrers": [
@@ -317,6 +338,12 @@
     "title": "Overview",
     "count": 4,
     "uniques": 3
+   },
+   {
+    "path": "/florianbaethge/bedtime_stories/blob/main/docs/card.md",
+    "title": "/blob/main/docs/card.md",
+    "count": 1,
+    "uniques": 1
    },
    {
     "path": "/florianbaethge/bedtime_stories/issues",
@@ -1432,6 +1459,20 @@
    "views_14d_unique": 3,
    "clones_14d": 30,
    "latest_release": "v0.5.0"
+  },
+  {
+   "date": "2026-10-29",
+   "collected_at": "2026-10-29T11:29:47Z",
+   "stars": 2,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 32,
+   "views_14d": 6,
+   "views_14d_unique": 4,
+   "clones_14d": 55,
+   "latest_release": "v0.6.0"
   }
  ]
 }
