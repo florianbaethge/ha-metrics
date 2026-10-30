@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-10-29T11:29:47Z",
-  "date": "2026-10-29",
+  "collected_at": "2026-10-30T11:22:50Z",
+  "date": "2026-10-30",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -36,7 +36,7 @@
     "assets": [
      {
       "name": "bedtime_stories.zip",
-      "downloads": 10
+      "downloads": 11
      }
     ],
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
@@ -161,7 +161,7 @@
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 32,
+  "downloads_total": 33,
   "latest_release": {
    "tag": "v0.6.0",
    "name": "v0.6.0",
@@ -170,7 +170,7 @@
    "assets": [
     {
      "name": "bedtime_stories.zip",
-     "downloads": 10
+     "downloads": 11
     }
    ],
    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
@@ -180,11 +180,6 @@
   "views_14d": 6,
   "views_14d_unique": 4,
   "views_daily": [
-   {
-    "timestamp": "2026-10-15T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-10-16T00:00:00Z",
     "count": 0,
@@ -249,16 +244,16 @@
     "timestamp": "2026-10-28T00:00:00Z",
     "count": 1,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-10-29T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 55,
-  "clones_14d_unique": 23,
+  "clones_14d": 67,
+  "clones_14d_unique": 30,
   "clones_daily": [
-   {
-    "timestamp": "2026-10-15T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-10-16T00:00:00Z",
     "count": 2,
@@ -323,6 +318,11 @@
     "timestamp": "2026-10-28T00:00:00Z",
     "count": 26,
     "uniques": 11
+   },
+   {
+    "timestamp": "2026-10-29T00:00:00Z",
+    "count": 13,
+    "uniques": 8
    }
   ],
   "referrers": [
@@ -1472,6 +1472,20 @@
    "views_14d": 6,
    "views_14d_unique": 4,
    "clones_14d": 55,
+   "latest_release": "v0.6.0"
+  },
+  {
+   "date": "2026-10-30",
+   "collected_at": "2026-10-30T11:22:50Z",
+   "stars": 2,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 33,
+   "views_14d": 6,
+   "views_14d_unique": 4,
+   "clones_14d": 67,
    "latest_release": "v0.6.0"
   }
  ]
