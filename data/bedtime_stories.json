@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-11-05T13:09:40Z",
-  "date": "2026-11-05",
+  "collected_at": "2026-11-06T12:55:07Z",
+  "date": "2026-11-06",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -28,7 +28,7 @@
     "assets": [
      {
       "name": "bedtime_stories.zip",
-      "downloads": 12
+      "downloads": 13
      }
     ],
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
@@ -153,7 +153,7 @@
     "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.1.0"
    }
   ],
-  "downloads_total": 34,
+  "downloads_total": 35,
   "latest_release": {
    "tag": "v0.6.0",
    "name": "v0.6.0",
@@ -162,7 +162,7 @@
    "assets": [
     {
      "name": "bedtime_stories.zip",
-     "downloads": 12
+     "downloads": 13
     }
    ],
    "url": "https://github.com/florianbaethge/bedtime_stories/releases/tag/v0.6.0"
@@ -172,11 +172,6 @@
   "views_14d": 6,
   "views_14d_unique": 3,
   "views_daily": [
-   {
-    "timestamp": "2026-10-22T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-10-23T00:00:00Z",
     "count": 0,
@@ -241,16 +236,16 @@
     "timestamp": "2026-11-04T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-11-05T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
   "clones_14d": 65,
   "clones_14d_unique": 30,
   "clones_daily": [
-   {
-    "timestamp": "2026-10-22T00:00:00Z",
-    "count": 1,
-    "uniques": 1
-   },
    {
     "timestamp": "2026-10-23T00:00:00Z",
     "count": 1,
@@ -315,6 +310,11 @@
     "timestamp": "2026-11-04T00:00:00Z",
     "count": 2,
     "uniques": 2
+   },
+   {
+    "timestamp": "2026-11-05T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
@@ -1553,6 +1553,20 @@
    "open_issues_count": 0,
    "open_prs_count": 0,
    "downloads_total": 34,
+   "views_14d": 6,
+   "views_14d_unique": 3,
+   "clones_14d": 65,
+   "latest_release": "v0.6.0"
+  },
+  {
+   "date": "2026-11-06",
+   "collected_at": "2026-11-06T12:55:07Z",
+   "stars": 2,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 35,
    "views_14d": 6,
    "views_14d_unique": 3,
    "clones_14d": 65,
