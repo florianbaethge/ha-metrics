@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-11-07T11:43:05Z",
-  "date": "2026-11-07",
+  "collected_at": "2026-11-08T11:55:21Z",
+  "date": "2026-11-08",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -72,14 +72,9 @@
   },
   "stars_last_7d": [],
   "forks_last_7d": [],
-  "views_14d": 0,
-  "views_14d_unique": 0,
+  "views_14d": 1,
+  "views_14d_unique": 1,
   "views_daily": [
-   {
-    "timestamp": "2026-10-24T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "timestamp": "2026-10-25T00:00:00Z",
     "count": 0,
@@ -144,16 +139,16 @@
     "timestamp": "2026-11-06T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-11-07T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
-  "clones_14d": 20,
-  "clones_14d_unique": 9,
+  "clones_14d": 19,
+  "clones_14d_unique": 8,
   "clones_daily": [
-   {
-    "timestamp": "2026-10-24T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-10-25T00:00:00Z",
     "count": 1,
@@ -218,10 +213,22 @@
     "timestamp": "2026-11-06T00:00:00Z",
     "count": 6,
     "uniques": 5
+   },
+   {
+    "timestamp": "2026-11-07T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [],
-  "top_paths": []
+  "top_paths": [
+   {
+    "path": "/florianbaethge/deluxe_room_card",
+    "title": "Overview",
+    "count": 1,
+    "uniques": 1
+   }
+  ]
  },
  "history": [
   {
@@ -1468,6 +1475,20 @@
    "views_14d": 0,
    "views_14d_unique": 0,
    "clones_14d": 20,
+   "latest_release": "v0.3.2"
+  },
+  {
+   "date": "2026-11-08",
+   "collected_at": "2026-11-08T11:55:21Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 1,
+   "views_14d_unique": 1,
+   "clones_14d": 19,
    "latest_release": "v0.3.2"
   }
  ]
