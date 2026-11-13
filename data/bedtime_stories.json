@@ -2,8 +2,8 @@
  "repo": "florianbaethge/bedtime_stories",
  "current": {
   "repo": "florianbaethge/bedtime_stories",
-  "collected_at": "2026-11-12T13:44:39Z",
-  "date": "2026-11-12",
+  "collected_at": "2026-11-13T13:04:01Z",
+  "date": "2026-11-13",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -173,11 +173,6 @@
   "views_14d_unique": 1,
   "views_daily": [
    {
-    "timestamp": "2026-10-29T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-10-30T00:00:00Z",
     "count": 0,
     "uniques": 0
@@ -241,16 +236,16 @@
     "timestamp": "2026-11-11T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-11-12T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 51,
-  "clones_14d_unique": 26,
+  "clones_14d": 39,
+  "clones_14d_unique": 19,
   "clones_daily": [
-   {
-    "timestamp": "2026-10-29T00:00:00Z",
-    "count": 13,
-    "uniques": 8
-   },
    {
     "timestamp": "2026-10-30T00:00:00Z",
     "count": 3,
@@ -315,6 +310,11 @@
     "timestamp": "2026-11-11T00:00:00Z",
     "count": 5,
     "uniques": 3
+   },
+   {
+    "timestamp": "2026-11-12T00:00:00Z",
+    "count": 1,
+    "uniques": 1
    }
   ],
   "referrers": [
@@ -1648,6 +1648,20 @@
    "views_14d": 2,
    "views_14d_unique": 1,
    "clones_14d": 51,
+   "latest_release": "v0.6.0"
+  },
+  {
+   "date": "2026-11-13",
+   "collected_at": "2026-11-13T13:04:01Z",
+   "stars": 2,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 36,
+   "views_14d": 2,
+   "views_14d_unique": 1,
+   "clones_14d": 39,
    "latest_release": "v0.6.0"
   }
  ]
