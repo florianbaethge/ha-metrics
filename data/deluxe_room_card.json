@@ -2,8 +2,8 @@
  "repo": "florianbaethge/deluxe_room_card",
  "current": {
   "repo": "florianbaethge/deluxe_room_card",
-  "collected_at": "2026-11-25T15:34:10Z",
-  "date": "2026-11-25",
+  "collected_at": "2026-11-26T15:09:22Z",
+  "date": "2026-11-26",
   "errors": [
    "stargazers: Namen nicht ermittelbar -- METRICS_TOKEN braeuchte dafuer 'Contents: Read and write'. Die Sternzahl selbst kommt aus /repos und stimmt weiterhin."
   ],
@@ -137,11 +137,6 @@
   "views_14d_unique": 2,
   "views_daily": [
    {
-    "timestamp": "2026-11-11T00:00:00Z",
-    "count": 0,
-    "uniques": 0
-   },
-   {
     "timestamp": "2026-11-12T00:00:00Z",
     "count": 0,
     "uniques": 0
@@ -205,16 +200,16 @@
     "timestamp": "2026-11-24T00:00:00Z",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "count": 0,
+    "uniques": 0
    }
   ],
-  "clones_14d": 106,
+  "clones_14d": 108,
   "clones_14d_unique": 39,
   "clones_daily": [
-   {
-    "timestamp": "2026-11-11T00:00:00Z",
-    "count": 2,
-    "uniques": 2
-   },
    {
     "timestamp": "2026-11-12T00:00:00Z",
     "count": 1,
@@ -279,6 +274,11 @@
     "timestamp": "2026-11-24T00:00:00Z",
     "count": 1,
     "uniques": 1
+   },
+   {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "count": 4,
+    "uniques": 2
    }
   ],
   "referrers": [
@@ -1794,6 +1794,20 @@
    "views_14d": 2,
    "views_14d_unique": 2,
    "clones_14d": 106,
+   "latest_release": "v0.4.3"
+  },
+  {
+   "date": "2026-11-26",
+   "collected_at": "2026-11-26T15:09:22Z",
+   "stars": 1,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues_count": 0,
+   "open_prs_count": 0,
+   "downloads_total": 0,
+   "views_14d": 2,
+   "views_14d_unique": 2,
+   "clones_14d": 108,
    "latest_release": "v0.4.3"
   }
  ]
